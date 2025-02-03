@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8d48049-eb92-4db9-b758-599b166b80a7">
+  <name>инкНачислениеЗарплатыЧтение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисление зарплаты (чтение)</value>
+  </synonym>
+</mdclass:Role>

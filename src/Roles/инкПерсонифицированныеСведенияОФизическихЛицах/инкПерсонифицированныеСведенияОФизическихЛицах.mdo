@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="636839cb-d1b8-4403-821d-211f0da76730">
+  <name>инкПерсонифицированныеСведенияОФизическихЛицах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Персонифицированные сведения о физических лицах</value>
+  </synonym>
+</mdclass:Role>

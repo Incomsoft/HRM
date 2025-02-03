@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2752a3b0-6808-445b-9f33-c50a3f02b4ce">
+  <name>инкОтчетПоСтраховымВзносам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по страховым взносам (Отчет)</value>
+  </synonym>
+</mdclass:Role>

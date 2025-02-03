@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5042b3a-9cf4-4c96-b1c7-b44f2c29fea4">
+  <producedTypes>
+    <objectType typeId="b4edd261-0230-40e7-99de-c6a9d0582a32" valueTypeId="3e399304-9a5f-457a-93dd-463f789073b8"/>
+    <managerType typeId="59261e8f-d03e-4256-9e9b-1d7e422160a0" valueTypeId="c9ac943b-3e71-4b2d-9dfc-b3c468761a1a"/>
+  </producedTypes>
+  <name>инкНалоговоеУведомление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Налоговое уведомление</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.инкНалоговоеУведомление.Form.ФормаДанные</defaultForm>
+  <forms uuid="85e86f9b-8d1f-4114-bd0a-0399003a4486">
+    <name>ФормаДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма данные</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e3d0cb5b-894b-4510-95e2-7d02e7c68b1c">
+    <name>ФормаНалоговыеУведомления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма налоговые уведомления</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="97b8a6aa-48be-41ab-bdbd-8e6eceb2f3bb">
+    <name>Печать_Форма2023_1_Титульная</name>
+    <synonym>
+      <key>ru</key>
+      <value>печатный бланк</value>
+    </synonym>
+  </templates>
+  <templates uuid="70ad47be-8191-470b-a790-4613a065981f">
+    <name>Печать_Форма2023_1_СумИсчНалог</name>
+    <synonym>
+      <key>ru</key>
+      <value>печатный бланк</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

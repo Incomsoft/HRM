@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4033228b-704b-441e-8823-6547b38efc73">
+  <producedTypes>
+    <objectType typeId="eaf83db5-8a71-4eba-93c5-294410bc1fb4" valueTypeId="8572df48-b5da-4c9c-a72f-db20e9168b6b"/>
+    <managerType typeId="682b2d48-42ab-4955-9bf0-3b0c2fb16790" valueTypeId="b1d0e754-4b75-4d15-823b-49789852d695"/>
+  </producedTypes>
+  <name>инкРасчетВзносов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет взносов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.инкРасчетВзносов.Form.ФормаОтладки</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="df7a104a-43c1-4397-9ec3-0039044657dd">
+    <name>ФормаОтладки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отладки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bbd15072-271f-4b39-ba99-5eaec3a68458">
+    <name>ФормаОтчетаАналитика</name>
+    <synonym>
+      <key>ru</key>
+      <value>6-НДФЛ</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1210c3fb-aea7-4261-9f46-879461fc30d1">
+    <name>ФормаВЗН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет: Взносы в фонды</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="56d66d4b-8fbf-4e73-869b-b0f2bb093d44">
+    <name>ФормаВЗНСвод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свод по взносам в фонды</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6ec446b2-67e0-4083-a323-f6d7da4ddf88">
+    <name>Взносы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взносы</value>
+    </synonym>
+  </templates>
+  <templates uuid="b6fb0078-e0d7-4997-b581-06aba261a2e3">
+    <name>ВзносыМСБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взносы МСБ</value>
+    </synonym>
+  </templates>
+  <templates uuid="e13a20f4-86d0-4686-87bc-fb8e5ff2f236">
+    <name>СводПоСтраховымВзносам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свод по страховым взносам</value>
+    </synonym>
+  </templates>
+  <templates uuid="eea7a9bc-723d-4ac7-a3ed-23722c9be7aa">
+    <name>СводПоСтраховымВзносамМСБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свод по страховым взносам МСБ</value>
+    </synonym>
+  </templates>
+  <templates uuid="c828319c-8c2a-4b07-a19d-b9bab3a4226c">
+    <name>Взносы_2024</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взносы</value>
+    </synonym>
+  </templates>
+  <templates uuid="0734fd00-5d8e-414b-b868-99b018dccea9">
+    <name>ВзносыМСБ_2024</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взносы МСБ 2024</value>
+    </synonym>
+  </templates>
+  <templates uuid="545b4af2-5eae-44b0-987c-bfadf52ef256">
+    <name>СводПоСтраховымВзносам_2024</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свод по страховым взносам 2024</value>
+    </synonym>
+  </templates>
+  <templates uuid="b47f2148-895a-49fc-9c0a-60b674716ad5">
+    <name>СводПоСтраховымВзносамМСБ_2024</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свод по страховым взносам МСБ 2024</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

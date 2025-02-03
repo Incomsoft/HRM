@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34ee01da-34df-4ec5-aca6-3f1f1612c2bd">
+  <name>инкФондТравматизмаЧтение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фонд травматизма (чтение)</value>
+  </synonym>
+</mdclass:Role>

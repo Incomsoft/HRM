@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78e475a1-6446-4ccc-975d-fb5d9bb28b9f">
+  <name>инкВводПостоянныхНачисленийУдержанийДобавлениеИзменение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод постоянных начислений удержаний (добавление/изменение)</value>
+  </synonym>
+</mdclass:Role>

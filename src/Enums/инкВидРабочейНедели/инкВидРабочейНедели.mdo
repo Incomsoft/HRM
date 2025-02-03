@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="adb36e19-09e0-4d2b-9b42-371478d3939e">
+  <producedTypes>
+    <refType typeId="499b8acf-7d0b-4c55-9175-ba32f089d570" valueTypeId="582d1c1c-9cf0-4e6e-b5a2-48e2e6dc18be"/>
+    <listType typeId="e4921216-912b-4322-968a-dbcab3eccc23" valueTypeId="9bf0648a-e2e0-4a73-b332-7fe4c4f13a03"/>
+    <managerType typeId="3789ffcb-eb43-4f5b-bffb-d829f85d294a" valueTypeId="745fccae-cb49-4424-bb9e-3439761e427b"/>
+  </producedTypes>
+  <name>инкВидРабочейНедели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид рабочей недели</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f65124dc-65d8-4543-8ee7-01f186e42302">
+    <name>Пятидневка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пятидневка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bcf6792a-2941-4756-9d13-56fa0364d2e6">
+    <name>Шестидневка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шестидневка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

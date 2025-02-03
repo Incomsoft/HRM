@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09c86119-ed5f-4b3f-9d49-5a57fc463372">
+  <name>инкОсобыеУсловияТруда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Особые условия труда</value>
+  </synonym>
+</mdclass:Role>

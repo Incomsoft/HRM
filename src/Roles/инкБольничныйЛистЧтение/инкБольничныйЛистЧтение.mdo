@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab8f16c4-98da-492b-b2e9-ea88a3f5a0f6">
+  <name>инкБольничныйЛистЧтение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Больничный лист (чтение)</value>
+  </synonym>
+</mdclass:Role>

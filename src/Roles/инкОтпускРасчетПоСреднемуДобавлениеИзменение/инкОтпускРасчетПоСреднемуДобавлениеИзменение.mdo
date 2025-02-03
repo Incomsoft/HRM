@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a393cf69-0aaa-43c8-b1fb-2056bac583d4">
+  <name>инкОтпускРасчетПоСреднемуДобавлениеИзменение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отпуск расчет по среднему (добавление/изменение)</value>
+  </synonym>
+</mdclass:Role>

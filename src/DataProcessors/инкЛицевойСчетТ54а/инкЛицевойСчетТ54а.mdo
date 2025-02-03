@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6527bb8-48c4-41eb-a24c-fe17e392154a">
+  <producedTypes>
+    <objectType typeId="f72164ea-93bb-448d-9934-6b001f147ee1" valueTypeId="840ea951-a3c9-4500-8781-5d9e78097aea"/>
+    <managerType typeId="575b43d2-787f-4999-b67a-12819c121ab6" valueTypeId="00fe0d3b-823a-4f13-a23c-773fd1bfcdbe"/>
+  </producedTypes>
+  <name>инкЛицевойСчетТ54а</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лицевой счет Т-54а</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.инкЛицевойСчетТ54а.Form.ФормаОтчета</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="6bfb91b3-42ee-4111-9c84-645d4cf90161">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="20454aff-b958-46df-b9bf-2e1fca98f4d8">
+    <name>ПФ_MXL_Т54</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лицевой счет (Т-54)</value>
+    </synonym>
+  </templates>
+  <templates uuid="a84d4a2d-9333-4e56-81a5-c2115061cb1f">
+    <name>ПФ_MXL_Т54а</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лицевой счет (Т-54а)</value>
+    </synonym>
+  </templates>
+  <commands uuid="c24e7802-0de5-4606-8196-c97f84d664bb">
+    <name>инкЛицевойСчетТ54а</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лицевой счет Т-54а</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5885b91c-6129-4797-8cd0-296f9b56b30a">
+  <producedTypes>
+    <objectType typeId="4b29a3bb-5bbc-4e7b-b73f-5de322871b04" valueTypeId="de06d308-781f-4feb-84d8-67f3d2bed7b2"/>
+    <refType typeId="b0e58055-f387-492f-9d4a-7e311e25b948" valueTypeId="09c30210-d631-4255-8c7f-5c6088e31bf6"/>
+    <selectionType typeId="ea5de54e-6c3c-4a16-831a-fd9f0a88d905" valueTypeId="684fd589-f9a4-4842-a32f-7365f2dd97eb"/>
+    <listType typeId="b874d974-a0cd-4d06-8078-1cd9764b2c5a" valueTypeId="896af2a4-6b21-4475-aabb-e107cabb4934"/>
+    <managerType typeId="742ea4a0-6f5a-4717-9b5c-eef52fd5a85e" valueTypeId="f2d41f67-6f29-43ff-807b-fd6b5e281567"/>
+  </producedTypes>
+  <name>инкЗарплатныеПроекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарплатные проекты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.инкЗарплатныеПроекты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.инкЗарплатныеПроекты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.инкЗарплатныеПроекты.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="7759381a-fc6d-4255-b262-874c655e1860">
+    <name>РасчетныйСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчетный счет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.инкРасчетныеСчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c6f00c5c-30ab-46f6-a781-e9a995394db9">
+    <name>ДоговорДата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата договора</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4becb684-a3d1-4e4c-8a77-e0facabdec68">
+    <name>ДоговорНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер договора</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="686a3a91-a436-4048-aa4e-75c3034868eb">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19b30253-a067-4465-8797-d4aaf23cae1b">
+  <producedTypes>
+    <objectType typeId="407c5996-f184-49e5-8f3b-4168daee9f4f" valueTypeId="5d5218cb-f785-4ae0-ad7b-7aec8ffb0fb4"/>
+    <managerType typeId="1bde9008-d6e8-411e-834c-713b305318ce" valueTypeId="6ef98fa7-540c-47e2-a37e-ed73223e692d"/>
+  </producedTypes>
+  <name>инкДниРожденияСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дни рождения сотрудников</value>
+  </synonym>
+  <comment>// +++ Чесноков М.С. 2023-03-09 *№ 0000004</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.инкДниРожденияСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <settingsStorage>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="ad5b79e1-8c52-49b3-967a-3aa2de1e4f2d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="df7b3abb-ff45-4b4b-bf7c-b0519b69f081">
+    <name>инкДниРожденияСотрудников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дни рождения сотрудников</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

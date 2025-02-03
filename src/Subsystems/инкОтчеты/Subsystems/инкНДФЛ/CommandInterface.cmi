@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>DataProcessor.инк1НДФЛ.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.инк2НДФЛ.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.инк6НДФЛРасшифровка.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>DataProcessor.инк1НДФЛ.Command.Команда1НДФЛ</commands>
+      <commands>DataProcessor.инк2НДФЛ.Command.Команда2НДФЛ</commands>
+      <commands>Document.инк6НДФЛ.StandardCommand.OpenList</commands>
+      <commands>DataProcessor.инк6НДФЛРасшифровка.Command.инк6НДФЛРасшифровка</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelTools</group>
+      <commands>DataProcessor.инк1НДФЛ.StandardCommand.Open</commands>
+      <commands>DataProcessor.инк2НДФЛ.StandardCommand.Open</commands>
+      <commands>DataProcessor.инк6НДФЛРасшифровка.StandardCommand.Open</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

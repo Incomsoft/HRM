@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Style xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed60acd5-df94-4dbc-9d50-5157e44aa48b">
+  <name>инкСтильПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стиль программы (Инкомсофт)</value>
+  </synonym>
+</mdclass:Style>

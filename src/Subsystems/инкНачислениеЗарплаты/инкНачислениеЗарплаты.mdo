@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53783bd1-7467-468a-ade6-33326c421011">
+  <name>инкНачислениеЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисление зарплаты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.инкЗагрузкаВнешнихНачисленийИнкомсофт10_5</content>
+  <content>DataProcessor.инкВыгрузкаНачисленийЗарплатыВБухгалтерию</content>
+  <content>DataProcessor.инкЗагрузкаКадровыхДанныхИзРСВ</content>
+  <content>DataProcessor.инкЗагрузкаКадровыхДанныхИзБПВЗИК</content>
+  <content>CommonCommand.инкТабельУчетаРабочегоВремени</content>
+  <content>DataProcessor.инкРегистрацияПрограммы</content>
+  <content>DataProcessor.инкКонфигурацияВыплатВФонды</content>
+  <content>DataProcessor.инкСервисноеОбслуживаниеПрограммыИнкомсофт</content>
+  <content>InformationRegister.инкНовости</content>
+  <content>Enum.инкИсполнительныйЛистПроцент</content>
+  <content>Document.инкБольничныйЛистРасчет</content>
+  <content>Document.инкБухгалтерскаяОперация</content>
+  <content>Document.инкВводВходящегоСальдо</content>
+  <content>Document.инкВедомостьНаВыплатуЗарплаты</content>
+  <content>Document.инкНачислениеЗарплаты</content>
+  <content>Document.инкОтпускРасчетПоСреднему</content>
+  <content>CommonCommand.инкВедомостьНачисленийУдержаний</content>
+  <content>CommonCommand.инкРасчетныеЛистки</content>
+  <content>CommonCommand.инкВзносыВФонды</content>
+  <content>CommonCommand.инкВзносыВФондыСвод</content>
+  <content>DataProcessor.инкСводнаяВедомость</content>
+  <subsystems>НачислениеЗарплатыПланыВидовРасчета</subsystems>
+</mdclass:Subsystem>

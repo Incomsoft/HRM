@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="725a124e-c7f5-4605-b2cc-b4b615c29f17">
+  <producedTypes>
+    <objectType typeId="63182840-02d5-4fab-8407-818aeab8ec85" valueTypeId="b2ad8b84-5751-476b-8f96-43fccd386d84"/>
+    <managerType typeId="2a88dacb-f473-4349-ab5a-2fe1b5adda33" valueTypeId="87cc1938-aa1d-4871-8fa7-656b8f3ca53b"/>
+  </producedTypes>
+  <name>инкПечатьПриказНаОтпуск</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать приказ на отпуск</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.инкПечатьПриказНаОтпуск.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="a69b5cad-5285-4c0f-9827-01d103d3cc33">
+    <name>ДокументСсылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ ссылка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.инкПриказНаОтпуск</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="dfb1e066-e355-4620-99c3-c664d79b0011">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="444f907a-051d-4e8a-a887-3970ba0fdb76">
+    <name>ПФ_MXL_Т6</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приказ о предоставлении отпуска (Т-6)</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы</comment>
+  </templates>
+</mdclass:DataProcessor>

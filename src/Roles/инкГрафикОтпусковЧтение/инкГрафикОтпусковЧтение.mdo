@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a652f7f-b04a-461d-b2c7-d1a01fb02c41">
+  <name>инкГрафикОтпусковЧтение</name>
+  <synonym>
+    <key>ru</key>
+    <value>График отпусков (чтение)</value>
+  </synonym>
+</mdclass:Role>

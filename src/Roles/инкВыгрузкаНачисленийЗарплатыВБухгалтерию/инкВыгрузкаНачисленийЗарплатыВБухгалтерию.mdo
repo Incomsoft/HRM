@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7e36ae5-d0a3-4cdf-a298-8e327177d1b9">
+  <name>инкВыгрузкаНачисленийЗарплатыВБухгалтерию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка начислений зарплаты в бухгалтерию</value>
+  </synonym>
+</mdclass:Role>

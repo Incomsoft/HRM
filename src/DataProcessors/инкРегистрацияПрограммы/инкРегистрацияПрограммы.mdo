@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0953cada-958f-4abb-bd51-4eb3fc12b4a1">
+  <producedTypes>
+    <objectType typeId="18796495-cb64-42f6-ab67-cd4c6f6e02b6" valueTypeId="0db834dd-10fa-49e9-adb6-130d46ed0481"/>
+    <managerType typeId="42e739ff-1576-4677-a549-a8bcd6b2cd4a" valueTypeId="91d0b114-ae37-4af0-b9b5-21f77ce7926b"/>
+  </producedTypes>
+  <name>инкРегистрацияПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация программы: &quot;Инкомсофт: Зарплата и кадры 11.0&quot; (Инкомсофт)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.инкРегистрацияПрограммы.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="f412a356-2f9e-4b96-aca6-41edb6de28b7">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.инкОрганизации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="871568c5-ab44-4e67-a543-207591a4d4c9">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="11e19cc5-3cb7-4776-9c92-7c7ae722b077">
+    <name>инкРегистрацияПрограммы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация программы</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

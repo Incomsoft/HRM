@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc4a8390-decc-4c93-8249-8c645dcf5364">
+  <producedTypes>
+    <objectType typeId="19a563d2-fceb-42b7-a511-aa1d04d929ce" valueTypeId="54546c92-9f8e-4257-8c21-063290f12561"/>
+    <managerType typeId="fd7ce1d0-1684-4e7e-9df2-c213b761eeda" valueTypeId="8795da5b-c733-464f-a96d-95a3ddd648df"/>
+  </producedTypes>
+  <name>инк6НДФЛ</name>
+  <synonym>
+    <key>ru</key>
+    <value>6 НДФЛ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.инк6НДФЛ.Form.ФормаОтчета</defaultForm>
+  <forms uuid="fd76367c-b509-4e04-ac8c-a04c5ee09638">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e7052ac6-41d0-4c1d-8cd5-f9576d414a77">
+    <name>ПечатныйБланк2024Кв2_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Титульный</value>
+    </synonym>
+  </templates>
+  <templates uuid="566d752e-8ae1-439b-b666-aa80a6f78524">
+    <name>ПечатныйБланк2024Кв2_Раздел1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="eda12216-ad4e-4b76-a69a-1c22db238fc9">
+    <name>ПечатныйБланк2024Кв2_Раздел2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 2</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

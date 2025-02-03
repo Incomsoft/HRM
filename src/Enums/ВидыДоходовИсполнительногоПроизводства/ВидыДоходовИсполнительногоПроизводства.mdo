@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d5fd844-ce9f-4727-9312-af8eb1f8a5c4">
+  <producedTypes>
+    <refType typeId="43d584f0-277e-456f-a1d9-6cc62fa0d29c" valueTypeId="868555f8-70b9-4ea0-b4c0-1e3fcc2a62b7"/>
+    <listType typeId="40a22614-e2c3-467f-b636-fe36881c6387" valueTypeId="afdbd373-b898-458b-bff1-45bf82e82067"/>
+    <managerType typeId="1d938549-18d1-4536-b989-b7588f05c28e" valueTypeId="6e6175a5-e7d2-4700-8ef2-872a596f3056"/>
+  </producedTypes>
+  <name>ВидыДоходовИсполнительногоПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды доходов исполнительного производства</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="98fcd2c3-a36b-49f0-ad8a-c0ad694ebff2">
+    <name>ДоходыБезОграниченияВзысканий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доходы без ограничения взысканий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5f71eee1-4f52-4251-8705-be24e096d7e6">
+    <name>ЗарплатаВознаграждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заработная плата и иные доходы с ограничением взыскания</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы длиной</comment>
+  </enumValues>
+  <enumValues uuid="0e8047c2-0228-4738-9d6d-84e74c7e17a4">
+    <name>КомпенсацииНеоблагаемые</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доходы, на которые не может быть обращено взыскание (без оговорок)</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы длиной</comment>
+  </enumValues>
+  <enumValues uuid="b6932ee1-f2c2-460f-ac5d-e1a0ab618b84">
+    <name>КомпенсацииОблагаемые</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доходы, на которые не может быть обращено взыскание (с оговорками для алиментов)</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы длиной</comment>
+  </enumValues>
+</mdclass:Enum>

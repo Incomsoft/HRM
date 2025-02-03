@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8da92ac7-41cc-4eeb-ac02-60a5153b02cd">
+  <name>инкВзносыВФонды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взносы в фонды</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

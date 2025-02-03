@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7e410f7-9d4c-4ce7-af5b-56737d08a9cc">
+  <name>инкСтандартныеВычетыНастройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стандартные вычеты настройки</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8aad87ca-773d-4c94-b7f1-bfcd18447c47">
+  <producedTypes>
+    <selectionType typeId="ac10b6d3-8450-45dd-9df5-91b379638004" valueTypeId="11043279-d5e7-44c5-940f-2ca20c7534ad"/>
+    <listType typeId="adc1d713-56ae-4c55-83ab-f6364cb1ec74" valueTypeId="167881b0-ed23-4120-8d1a-6f7a5f162217"/>
+    <managerType typeId="6bf5b4f8-f628-4249-95d1-0e88e12d29af" valueTypeId="0d4321c8-c708-4579-8248-aa7806e51bb2"/>
+    <recordSetType typeId="3ff3c233-d330-49f8-9a90-1131c633706d" valueTypeId="a6644485-3ded-4b73-ba09-0869b381a686"/>
+    <recordKeyType typeId="1846393d-4041-47fb-8aa3-6e12b1ec9a1a" valueTypeId="8c632c7c-4dbe-4bc9-86c6-9cfd1fff64be"/>
+    <recordType typeId="e755ebc2-30e4-437d-8552-b6a49c77c7a9" valueTypeId="857cc327-c832-4d0b-8e5e-577ad2cc5716"/>
+    <recordManagerType typeId="9fbac0ca-e6a9-4ec6-884a-88428a9d37d8" valueTypeId="21d430a2-227f-476f-a81d-0308bb8dc128"/>
+  </producedTypes>
+  <name>инкНалоговыеУведомления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Налоговые уведомления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7eb98983-e4de-45ab-a13a-aaa108264228">
+    <name>АвансНДФЛСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аванс НДФЛ сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="42b49e29-dc1d-48ee-aa9f-f73177d5ac2a">
+    <name>ВзносыСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взносы сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e8a62828-4c96-4552-9dcd-1ddeb0b8be54">
+    <name>НДФЛСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>НДФЛ сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b84b7580-988d-448a-a846-3e21de8669f3">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.инкОрганизации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

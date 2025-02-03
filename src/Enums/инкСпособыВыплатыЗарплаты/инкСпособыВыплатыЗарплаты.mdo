@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dfa386c1-e1d3-4bc1-9e5a-298707629078">
+  <producedTypes>
+    <refType typeId="f2c3b713-c735-48dc-8a62-181fb14b3ecb" valueTypeId="9e328a0b-ffa4-4b2c-9120-c510d030e59e"/>
+    <listType typeId="b9205b85-d109-44ab-a6b7-e0d4c798e52d" valueTypeId="ebb61852-3bbb-42a6-ba2d-280e10798ff8"/>
+    <managerType typeId="c91b4fd4-a470-45e5-b8a8-24fb5dd322bf" valueTypeId="2cd32497-b225-427d-aa92-b2500bd5f4fa"/>
+  </producedTypes>
+  <name>инкСпособыВыплатыЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы выплаты зарплаты</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0d129162-778b-40ba-952d-64cac5759151">
+    <name>Зарплата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарплата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b15a06b6-6ae4-4f94-b2a7-0883e1f1edd6">
+    <name>Аванс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аванс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0f150cf2-fff6-4c60-bf5d-f3e41b27d3af">
+    <name>ПоВидамУдержаний</name>
+    <synonym>
+      <key>ru</key>
+      <value>По видам удержаний</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

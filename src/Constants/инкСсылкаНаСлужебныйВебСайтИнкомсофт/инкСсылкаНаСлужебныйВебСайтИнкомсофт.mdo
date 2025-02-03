@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55fd8db6-0f9a-42a4-8032-851aac544b41">
+  <producedTypes>
+    <managerType typeId="c387ce62-76eb-4ccb-9a4a-2c531f020352" valueTypeId="7b519970-5d0c-45f1-b0ea-4f813222577b"/>
+    <valueManagerType typeId="ff09c21c-318e-475d-93f6-6525fa2544e5" valueTypeId="f3ac6a6f-8814-4d6c-8285-4f28657378e5"/>
+    <valueKeyType typeId="aa0ce7be-2fe9-4696-a532-02131de3fab5" valueTypeId="0d4e6f0d-8318-4938-9187-145156dad9ab"/>
+  </producedTypes>
+  <name>инкСсылкаНаСлужебныйВебСайтИнкомсофт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ссылка на служебный веб сайт инкомсофт</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.инкСсылкаНаСлужебныйВебСайтИнкомсофт</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f61cb5b-5e69-4b2e-82d7-a74929098003">
+  <name>инкКнигаКадровыхПриказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Книга кадровых приказов</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b20c3685-5c4d-4efd-b6f0-e56b37082629">
+  <producedTypes>
+    <objectType typeId="16a539db-357e-453f-ae40-292fc8567a52" valueTypeId="7129d9d6-14cf-4979-948f-356235985d54"/>
+    <refType typeId="fdfbd33f-4d8f-497f-85be-c058207e4ab9" valueTypeId="60d988ff-a97e-4317-822b-9ef8010540bc"/>
+    <selectionType typeId="6aebe6c4-1cdb-4de4-87a3-0717bdf08ef8" valueTypeId="1355bf8c-5d7c-470e-8bd2-81d151a743b5"/>
+    <listType typeId="dccb7c19-51fa-4a92-9b8b-6e40e67e444f" valueTypeId="e064dfa0-6de4-439b-bd9d-559b95b882ce"/>
+    <managerType typeId="0346372b-fa7b-42a1-83d5-e6d37895e503" valueTypeId="a23841e4-6e86-476b-b0ce-0d02f403c314"/>
+  </producedTypes>
+  <name>инкИсточникиФинансирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источники финансирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.инкИсточникиФинансирования.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.инкИсточникиФинансирования.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="30a80e1c-07f0-498b-a392-609304f6bda3">
+      <name>ОсновнойБаланс</name>
+      <description>Основной баланс</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

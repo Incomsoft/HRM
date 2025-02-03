@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e790ed1-7924-4e0f-81ff-2d0bc0fca112">
+  <producedTypes>
+    <objectType typeId="8e3cf7b1-6c09-43cf-905c-d487e48267a8" valueTypeId="f54bbb0c-3020-4d9d-b870-a1745dafde2b"/>
+    <managerType typeId="ea1045dc-e5d7-403c-81d4-209c5e7b5141" valueTypeId="eefcb6fb-be77-4ec4-9a0e-b2b7177e7b85"/>
+  </producedTypes>
+  <name>инкРасчетПоСтраховымВзносам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет по страховым взносам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.инкРасчетПоСтраховымВзносам.Form.ФормаОтчета</defaultForm>
+  <forms uuid="949e04ad-c92d-4896-83e5-49c7189b7e57">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a69d5131-ea0c-4c2f-94b7-fdf5677cf1c7">
+    <name>ПечатныйБланк2023Кв3_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Титульный</value>
+    </synonym>
+  </templates>
+  <templates uuid="9b41695c-c803-42a9-a3ed-97b0c927ed5d">
+    <name>ПечатныйБланк2023Кв3_Раздел1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="d2879422-184e-41b6-99a6-839060f3d93b">
+    <name>ПечатныйБланк2023Кв3_Раздел1Подр1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, подр. 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="ced678e7-974c-4190-becb-5c6f06f703f5">
+    <name>ПечатныйБланк2023Кв3_Раздел3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 3</value>
+    </synonym>
+  </templates>
+  <templates uuid="0dcfd2b5-a34a-43c5-96b2-5654ea3d231f">
+    <name>СхемаВыгрузки506</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки, версия 5.05</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

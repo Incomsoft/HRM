@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1746b5a9-384b-43a7-84d8-58654ec79b6a">
+  <producedTypes>
+    <objectType typeId="8326f777-48fb-4ad3-ac16-963e709fbd16" valueTypeId="4b6b2277-dc67-4862-9bd1-27418bafdce7"/>
+    <managerType typeId="dcdcd81b-6ff0-4cb9-adfb-578f905ae6a4" valueTypeId="f1c5a037-33cd-4daa-8883-bc16df3badf0"/>
+  </producedTypes>
+  <name>инкПерсонифицированныеСведенияОФизическихЛицах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Персонифицированные сведения о физических лицах</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.инкПерсонифицированныеСведенияОФизическихЛицах.Form.ФормаПараметры</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="e0e2c968-d40c-4f3d-a1b9-7594ec414179">
+    <name>ФормаПараметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Персонифицированные сведения о физических лицах</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6b835e8e-ac04-4769-8f0c-fa4ed3f3f1f3">
+    <name>ПечатныйБланк2023Кв1_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Титульный</value>
+    </synonym>
+  </templates>
+  <templates uuid="cbc63617-07ea-4e99-be79-210f1baf9e3d">
+    <name>ПечатныйБланк2023Кв1_Раздел1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="7914f0d7-f673-4910-8cba-7315ede07aae">
+    <name>СхемаВыгрузки501</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки, версия 5.01</value>
+    </synonym>
+  </templates>
+  <commands uuid="264ba1ce-79f3-470d-bdcd-bc9e758082f7">
+    <name>КомандаПерсонифицированныеСведенияОФизическихЛицах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Персонифицированные сведения о физических лицах</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

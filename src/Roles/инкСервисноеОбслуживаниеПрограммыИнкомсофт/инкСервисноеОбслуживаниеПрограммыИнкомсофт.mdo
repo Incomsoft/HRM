@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87694c8e-3fc7-4d66-9f50-8a650c6a4a41">
+  <name>инкСервисноеОбслуживаниеПрограммыИнкомсофт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервисное обслуживание программы инкомсофт (обработка)</value>
+  </synonym>
+</mdclass:Role>

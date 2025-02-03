@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ef12892-f7da-4417-9faf-0a0fd191cfc6">
+  <name>инкПриказНаВыплатуКомпенсацииЧтение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приказ на выплату компенсации (чтение)</value>
+  </synonym>
+</mdclass:Role>

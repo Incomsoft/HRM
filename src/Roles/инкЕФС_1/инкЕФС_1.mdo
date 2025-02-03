@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b88fa93-37be-4f32-a2cb-b1f268343a6b">
+  <name>инкЕФС_1</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЕФС-1 (Отчет)</value>
+  </synonym>
+</mdclass:Role>

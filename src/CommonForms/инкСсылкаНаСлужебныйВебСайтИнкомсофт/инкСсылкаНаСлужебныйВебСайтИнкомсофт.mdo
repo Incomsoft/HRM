@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef777d7d-b9de-4461-9f53-636035823ae7">
+  <name>инкСсылкаНаСлужебныйВебСайтИнкомсофт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ссылка на служебный веб сайт ООО Инкомсофт</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

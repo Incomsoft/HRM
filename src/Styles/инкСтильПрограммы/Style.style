@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style:Style xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:style="http://g5.1c.ru/v8/dt/style">
+  <items xsi:type="style:ColorStyleItem">
+    <name>ActivityColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>157</red>
+      <green>216</green>
+      <blue>191</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>AccentColor</name>
+    <color xsi:type="core:ColorDef">
+      <green>51</green>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>NavigationColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>216</red>
+      <green>251</green>
+      <blue>207</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>AuxiliaryNavigationColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.AuxiliaryNavigationColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>ImportantColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>10</red>
+      <green>135</green>
+      <blue>51</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ДатаГрафикаИзмененнаяФон</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ДатаГрафикаИзмененнаяФон</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ПоясняющийТекст</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ДатаГрафикаИзмененнаяФон</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ФонРезультатовПоиска</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ФонРезультатовПоиска</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ФонУправляющегоПоля</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ФонУправляющегоПоля</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ЦветТекстаНевыбраннойКартинки</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ЦветТекстаНевыбраннойКартинки</color>
+    </color>
+  </items>
+</style:Style>

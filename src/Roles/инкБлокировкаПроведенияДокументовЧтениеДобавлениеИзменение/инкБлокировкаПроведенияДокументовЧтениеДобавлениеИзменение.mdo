@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f709d3b5-a5f6-41af-be7d-57a53e6f82a7">
+  <name>инкБлокировкаПроведенияДокументовЧтениеДобавлениеИзменение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Блокировка проведения документов чтение (добавление/изменение)</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6788625-e054-4372-a9dc-3fa6ce3817f1">
+  <producedTypes>
+    <managerType typeId="38350d49-c9d9-4ba2-84bc-f854a75562b5" valueTypeId="9dc2ed01-3fef-42db-bcbd-0b2f2e66ec43"/>
+    <valueManagerType typeId="f0d57c08-5dc2-4212-b3fe-6cbffc2d1714" valueTypeId="c6233495-a6fa-4d5b-8cdd-b00c3520d7cd"/>
+    <valueKeyType typeId="e226fa4f-fbd3-4b1d-aab3-232151c9790c" valueTypeId="a82e95f2-88df-4dc5-9560-e07828f8358c"/>
+  </producedTypes>
+  <name>инкУИДПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>УИД программы (Инкомсофт)</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>36</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

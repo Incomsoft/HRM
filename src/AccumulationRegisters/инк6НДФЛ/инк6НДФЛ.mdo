@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b220e3d-be7f-4254-a283-db90dd5c39dc">
+  <producedTypes>
+    <selectionType typeId="1afcb508-93d5-403e-9def-aeb3438c78c4" valueTypeId="8cd09073-33e9-4ca8-9700-d238689f8430"/>
+    <listType typeId="6ceef935-fd27-45f9-b18f-34a893b325de" valueTypeId="db3da2ee-4960-4919-b80e-e3fc504e4d83"/>
+    <managerType typeId="19953eda-b607-4651-8d45-25a816903b48" valueTypeId="7c121a47-0a70-4d25-87ff-37c16012fac7"/>
+    <recordSetType typeId="f315e833-e71f-46c8-9ebd-b7de206d7c87" valueTypeId="e12cd4ad-6636-43e5-a373-8772ed4342e0"/>
+    <recordKeyType typeId="1ccf573c-7401-4989-bfd0-93810140c791" valueTypeId="775af210-6b96-46a9-83d5-39fd62a750a9"/>
+    <recordType typeId="d15652f0-a163-4f1d-be6b-86ede4658bea" valueTypeId="aee41f0e-5503-4003-b434-6d5e59ab3497"/>
+  </producedTypes>
+  <name>инк6НДФЛ</name>
+  <synonym>
+    <key>ru</key>
+    <value>6-НДФЛ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="5a43a445-be32-4ff3-b4ad-b2f682b16cda">
+    <name>СуммаНалогаВозвращенного</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма налога возвращенного</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="9128334c-54a1-4412-a9bf-efd3e113fa47">
+    <name>СуммаНалогаНеУдержанная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма налога не удержанная</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="8b98c2ea-5e34-49de-8193-6dcfed3708f1">
+    <name>СуммаНалогаУдержанная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма налога удержанная</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="e26fc035-6dd7-4c0f-b5cd-400ba1de16d0">
+    <name>СуммаНеНалогаИзлишнеУдержанная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма не налога излишне удержанная</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="9d815a1f-8656-476c-9423-22957d61fd4c">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.инкОрганизации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

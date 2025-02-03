@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c136138-949d-4ce7-86ba-22a59f1771e9">
+  <name>инкНормаВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Норма времени</value>
+  </synonym>
+</mdclass:Role>

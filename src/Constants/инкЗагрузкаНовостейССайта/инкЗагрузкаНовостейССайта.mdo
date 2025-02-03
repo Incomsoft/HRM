@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0affefc-f496-440d-aac7-481b50e539e7">
+  <producedTypes>
+    <managerType typeId="b7afa25a-6470-4833-8910-72319dc8587d" valueTypeId="1e9bdb8f-e846-4ab7-ae4b-10e7ab53186e"/>
+    <valueManagerType typeId="eb286460-499f-4304-a260-fa73588475b7" valueTypeId="0cdc4f2a-fe0c-4536-aa77-699ae3948423"/>
+    <valueKeyType typeId="2b2396fb-b635-4d20-bdb7-26d90bd8e865" valueTypeId="94c374b2-4932-4a1d-a11d-44bb14885f1d"/>
+  </producedTypes>
+  <name>инкЗагрузкаНовостейССайта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка новостей с сайта</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.инкЗагрузкаНовостейССайта</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

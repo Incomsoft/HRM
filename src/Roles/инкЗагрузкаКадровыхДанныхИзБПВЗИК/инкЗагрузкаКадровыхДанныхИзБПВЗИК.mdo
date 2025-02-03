@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60c423d7-f6ab-47a1-b351-7fa55a5e6b23">
+  <name>инкЗагрузкаКадровыхДанныхИзБПВЗИК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка кадровых данных из БП в ЗИК</value>
+  </synonym>
+</mdclass:Role>

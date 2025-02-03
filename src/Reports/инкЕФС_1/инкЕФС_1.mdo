@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd373d33-61ae-4afd-a7aa-458da6a89f61">
+  <producedTypes>
+    <objectType typeId="de132681-5010-4d65-8e36-aa625f04306e" valueTypeId="c711da40-79ed-4e32-8e0e-f088291b2084"/>
+    <managerType typeId="652605f5-cc5c-4de2-8ae6-80df35ff493e" valueTypeId="7f18303c-0e0b-4a6b-9cca-55d101eb4278"/>
+  </producedTypes>
+  <name>инкЕФС_1</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЕФС - 1</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.инкЕФС_1.Form.ФормаОтчета</defaultForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <settingsStorage>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="df9f8f42-f0d2-490e-a94e-79e40f42b0aa">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d8aec421-8048-44b3-bf5e-58ec5d22f1cb">
+    <name>ЕФС_раздел2</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЕФС (раздел 2)</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="297d2089-af88-4258-91bf-be7081471142">
+    <name>ПФ_MXL_ФормаЕФС_Раздел1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ЕФС-1</value>
+    </synonym>
+  </templates>
+  <templates uuid="15583c07-d75b-49fa-b684-f9c37a0f99e7">
+    <name>ФормаОтчета2023Кв1_Раздел2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="514a669f-8ec7-4774-ac4c-e4c03eaf8445">
+    <name>ФормаОтчета2024Кв1_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Титульный</value>
+    </synonym>
+  </templates>
+  <templates uuid="da07f729-5414-49a2-9309-952b112e54fe">
+    <name>ФормаОтчета2024Кв1_Раздел23</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 2.3</value>
+    </synonym>
+  </templates>
+  <commands uuid="0bf244b9-f0b2-4931-a0ed-3cfa24b9214f">
+    <name>ЕФС_1_Раздел_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЕФС - 1 (Раздел 1)</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="b0d38a16-a999-4495-b340-348679704960">
+    <name>ЕФС_1_Раздел_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЕФС - 1 (Раздел 2)</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

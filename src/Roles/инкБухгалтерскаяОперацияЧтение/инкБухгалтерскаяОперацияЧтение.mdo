@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7248727-89bb-4140-8dc3-e0420b50ff98">
+  <name>инкБухгалтерскаяОперацияЧтение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бухгалтерская операция (чтение)</value>
+  </synonym>
+</mdclass:Role>

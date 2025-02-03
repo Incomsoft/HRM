@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6de5aedc-a5f8-444a-90d9-da3bf33f2455">
+  <name>инкПроизводственныйКалендарьСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Производственный календарь сервер</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

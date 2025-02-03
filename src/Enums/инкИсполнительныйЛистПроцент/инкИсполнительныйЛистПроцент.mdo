@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba5b7ce2-7cfb-4796-88a5-1394b30f9e84">
+  <producedTypes>
+    <refType typeId="f0b899ba-07d4-4332-a970-1b5144e4dd92" valueTypeId="cda32f75-b1aa-4cc9-a743-5c85bdb39f92"/>
+    <listType typeId="e8c9cb23-79b0-4ed3-8ceb-301ac9174fc3" valueTypeId="e4628ee0-06b3-4449-8eea-711341b940df"/>
+    <managerType typeId="f8bdb189-6a26-48dd-9403-93310ca08114" valueTypeId="8f458292-01d0-4fd5-ba19-fad504da5e11"/>
+  </producedTypes>
+  <name>инкИсполнительныйЛистПроцент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исп. лист %</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8de9ab2c-e508-4f23-927d-72ef50868051">
+    <name>Процент25</name>
+    <synonym>
+      <key>ru</key>
+      <value>25%</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dd98ad31-a133-4076-a66b-38672c1ef642">
+    <name>Процент33_33</name>
+    <synonym>
+      <key>ru</key>
+      <value>33.33%</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f0d11c1f-104b-46d1-a317-dd30bbe0bd0d">
+    <name>Процент50</name>
+    <synonym>
+      <key>ru</key>
+      <value>50%</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae3b4d92-c89e-46f7-b97c-763dcc871b8d">
+  <producedTypes>
+    <objectType typeId="3aa1ad5d-9f8a-483a-b461-9e59446d270a" valueTypeId="46eb07af-4931-4679-91f4-6ca6716b1bc1"/>
+    <managerType typeId="ad623e18-4baa-48cb-a4c5-6a07c7d10229" valueTypeId="6ada2902-27ec-455b-a3fb-916286f1de22"/>
+  </producedTypes>
+  <name>инкСводнаяВедомость</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сводная ведомость</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.инкСводнаяВедомость.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="d11dd667-ebb0-4852-9c64-f77468f110aa">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="5c44b88e-6f57-4813-a5ac-7cff79a8e345">
+    <name>СводнаяВедомостьМакет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сводная ведомость макет</value>
+    </synonym>
+  </templates>
+  <commands uuid="a86f719d-d977-45f3-bc25-be4146779b7a">
+    <name>КомандаСводнаяВедомость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сводная ведомость</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

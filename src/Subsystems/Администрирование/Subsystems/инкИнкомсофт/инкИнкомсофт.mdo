@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00b4d353-2683-4577-b824-013790251ae3">
+  <name>инкИнкомсофт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инкомсофт</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Constant.инкБлокировкаПроведенияДокументовНачисленияЗарплатыЗаднимЧислом</content>
+  <content>Constant.инкЗагрузкаНовостейССайта</content>
+  <content>Constant.инкСсылкаНаСлужебныйВебСайтИнкомсофт</content>
+  <content>DataProcessor.инкРегистрацияПрограммы</content>
+  <content>DataProcessor.инкСервисноеОбслуживаниеПрограммыИнкомсофт</content>
+  <content>InformationRegister.инкНовости</content>
+  <content>CommonCommand.инкБлокировкаПроведенияДокументовНачисленияЗарплатыЗаднимЧислом</content>
+  <content>CommonCommand.инкЗагрузкаНовостейССайта</content>
+  <content>CommonCommand.инкСсылкаНаСлужебныйВебСайтИнкомсофт</content>
+  <content>Constant.инкСтандартныеНастройкиИнтерфейса</content>
+  <content>CommonCommand.инкСтандартныеНастройкиИнтерфейса</content>
+  <content>Catalog.инкВебСсылкиНаСправкуКПрограмме</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

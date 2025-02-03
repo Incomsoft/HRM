@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f71041b8-8814-4289-8466-1a6b6a2aac49">
+  <name>инкКадровыйПереводДобавлениеИзменение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровый перевод (добавление/изменение)</value>
+  </synonym>
+</mdclass:Role>

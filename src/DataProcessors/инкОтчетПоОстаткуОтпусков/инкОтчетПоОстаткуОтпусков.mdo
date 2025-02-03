@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="371ccffb-00dc-4c7b-b9ed-aedb358afd32">
+  <producedTypes>
+    <objectType typeId="9205bcf8-47e5-4026-9e20-dd359ed9aa1a" valueTypeId="422d9d3f-f404-40b3-88d0-0977df74deae"/>
+    <managerType typeId="249ead98-54b8-48e2-90a9-71b4ba9c08aa" valueTypeId="8c0fd0f5-91e2-4d39-895a-eda405197453"/>
+  </producedTypes>
+  <name>инкОтчетПоОстаткуОтпусков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по остатку отпусков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.инкОтчетПоОстаткуОтпусков.Form.ФормаОтчета</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="4ffb4168-90b8-485d-8e53-ae9903c6a978">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a5cc22b6-9896-4361-b88f-922fee993774">
+    <name>МакетОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет основная форма</value>
+    </synonym>
+  </templates>
+  <commands uuid="ba5122ec-b7ab-4460-999d-086a55679790">
+    <name>инкОтчетПоОстаткуОтпусков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет по остатку отпусков</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

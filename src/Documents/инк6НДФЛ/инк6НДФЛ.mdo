@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="821b43fa-74d5-4090-b06c-26d4afd86c9b">
+  <producedTypes>
+    <objectType typeId="4bd6a360-fabc-4386-815b-f573dc557f00" valueTypeId="eab9a4e5-9241-4f09-9e17-1aabea61adc0"/>
+    <refType typeId="00a3754d-8a1b-416d-b72a-8e62a8e7aedb" valueTypeId="82325cb9-c86b-47dd-8c4c-dafefedf92ed"/>
+    <selectionType typeId="4b09cd8d-8c53-4437-af71-2fcae5e0750e" valueTypeId="48535f94-aecd-4f27-97ca-74bcece78a19"/>
+    <listType typeId="b21432fa-7cd4-49a2-b86c-006b74a286c0" valueTypeId="1a766961-1923-4d61-9689-5fe7eccfb83a"/>
+    <managerType typeId="82bb2df4-276f-4a1d-a957-ccb74b0da482" valueTypeId="58eb907d-051c-4468-9a2e-61a468a42dc2"/>
+  </producedTypes>
+  <name>инк6НДФЛ</name>
+  <synonym>
+    <key>ru</key>
+    <value>6-НДФЛ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.инк6НДФЛ.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.инк6НДФЛ.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.инк6НДФЛ</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="28841689-b93f-417c-958f-14a6bdbff0ef">
+    <name>КоличествоЛицПолучившихДоход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество лиц получивших доход [110]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="91f54994-ccdd-4f86-95ae-b99e11b654db">
+    <name>НалоговыйАгент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Налоговый агент</value>
+    </synonym>
+    <type>
+      <types>EnumRef.инкНалоговыйАгент</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.инкНалоговыйАгент.EnumValue.НалоговыйАгент</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0932ba6b-499f-4e1d-ac3f-16ea74462be0">
+    <name>НомерКорректировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер корректировки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="43163e6e-b64d-4fa8-ba97-98aa217dd76c">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.инкОрганизации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e3d4bbe2-6fbf-45ed-9ffb-f6f0ac6a89f0">
+    <name>ПериодДата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9f114702-004d-46e6-ad18-892d14994313">
+    <name>ПериодРегламентногоОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период регламентного отчета</value>
+    </synonym>
+    <type>
+      <types>EnumRef.инкПериодыРегламентныхОтчетов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a092faba-429e-493e-95f9-11b076a4535b">
+    <name>Реквизит_021</name>
+    <synonym>
+      <key>ru</key>
+      <value>по первому сроку перечисления [021]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b5f6a365-fa12-45ae-8e9e-9140a73a5381">
+    <name>Реквизит_022</name>
+    <synonym>
+      <key>ru</key>
+      <value>по второму сроку перечисления [022]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="635bb234-8284-49ed-b040-c9242713fe53">
+    <name>Реквизит_023</name>
+    <synonym>
+      <key>ru</key>
+      <value>по третьему сроку перечисления [023]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="abbde01c-ee99-48e7-824c-b1996a57de6e">
+    <name>Реквизит_024</name>
+    <synonym>
+      <key>ru</key>
+      <value>по четвертому сроку перечисления [024]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="73ec0ec6-027b-44f3-b311-ce13309b83e0">
+    <name>Реквизит_025</name>
+    <synonym>
+      <key>ru</key>
+      <value>по пятому сроку перечисления	[025]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="127487e6-79ae-4b51-9835-214eb59a8c6a">
+    <name>Реквизит_026</name>
+    <synonym>
+      <key>ru</key>
+      <value>по шестому сроку перечисления [026]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e7ad16c7-f4b6-4528-a2c2-de19e52a0552">
+    <name>Реквизит_111</name>
+    <synonym>
+      <key>ru</key>
+      <value>  в том числе количество высококвалифицированных специалистов, получивших доход [111]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b0d836b9-f637-4c12-bea9-41058a14f94f">
+    <name>Реквизит_141</name>
+    <synonym>
+      <key>ru</key>
+      <value>  в том числе сумма налога, исчисленная с доходов высококвалифицированных специалистов [141]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fbc5e4c2-3f29-4c57-b9c2-5594b97d284f">
+    <name>Реквизит_150</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма фиксированных авансовых платежей [150]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="35ada1b0-454a-48dd-a688-4df11f8d2571">
+    <name>Реквизит_155</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма налога на прибыль организаций, подлежащая зачету [155]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="51620bdb-fe68-46f3-be35-e6af0a5b1025">
+    <name>Реквизит_156</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма налога, исчисленная и уплаченная в иностранном государстве [156]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="947227d7-e392-4bc6-8a24-7828c7747cbb">
+    <name>Реквизит_161</name>
+    <synonym>
+      <key>ru</key>
+      <value>с 1-го по 22-е число первого месяца последнего квартала [161]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3e60e6e9-7a25-4fb4-a634-3ffaa6710c3a">
+    <name>Реквизит_162</name>
+    <synonym>
+      <key>ru</key>
+      <value>с 23-го по последнее число первого месяца последнего квартала [162]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d7b4d5ec-614b-41de-b61e-5f2170c67d39">
+    <name>Реквизит_163</name>
+    <synonym>
+      <key>ru</key>
+      <value>с 1-го по 22-е число второго месяца последнего квартала [163]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8fee4a0c-0c6a-43dc-aa51-6f0782060bcb">
+    <name>Реквизит_164</name>
+    <synonym>
+      <key>ru</key>
+      <value>с 23-го по последнее число второго месяца последнего квартала [164]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2f219015-93bd-428c-830e-c8efa71ad877">
+    <name>Реквизит_165</name>
+    <synonym>
+      <key>ru</key>
+      <value>с 1-го числа по 22-е число третьего месяца последнего квартала [165]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="823099f7-61ac-46e3-8e99-6d1a4211dc7a">
+    <name>Реквизит_166</name>
+    <synonym>
+      <key>ru</key>
+      <value>с 23-го по последнее число третьего месяца последнего квартала [166]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="62d75ed0-f528-4eb8-bf30-734beb33b35e">
+    <name>Реквизит_191</name>
+    <synonym>
+      <key>ru</key>
+      <value>с 1-го по 22-е число первого месяца последнего квартала [191]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4417de8b-9a33-414f-9f97-692320e71331">
+    <name>Реквизит_192</name>
+    <synonym>
+      <key>ru</key>
+      <value>с 23-го по последнее число первого месяца последнего квартала [192]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8841800e-ee0e-4dac-9d8f-bb9d259b876a">
+    <name>Реквизит_193</name>
+    <synonym>
+      <key>ru</key>
+      <value>с 1-го по 22-е число второго месяца последнего квартала [193]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0e661019-fde8-49da-afda-c3cc949ef3de">
+    <name>Реквизит_194</name>
+    <synonym>
+      <key>ru</key>
+      <value>с 23-го по последнее число второго месяца последнего квартала [194]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a702ba24-843a-43e3-a86d-a673b453fc23">
+    <name>Реквизит_195</name>
+    <synonym>
+      <key>ru</key>
+      <value>с 1-го числа по 22-е число третьего месяца последнего квартала [195]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="995a9d98-2908-4bf6-ae2a-52598c8c47fd">
+    <name>Реквизит_196</name>
+    <synonym>
+      <key>ru</key>
+      <value>с 23-го по последнее число третьего месяца последнего квартала [196]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="18bca2e7-5373-4363-b65a-6202230a1689">
+    <name>СуммаВычеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма вычетов и расходов [130]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="246f91b8-fc15-4bb0-9701-06868184184a">
+    <name>СуммаГПХ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма ГПХ [113]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="006a09c8-90aa-4b6e-923a-56c048ad68ef">
+    <name>СуммаДохода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма дохода [110]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="52ceeac3-687d-4285-846e-42b871f79ef2">
+    <name>СуммаДоходаПолученнаяФизическимиЛицами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма дохода полученная физическими лицами [120]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9395e853-236b-43ac-a329-5e8589dfb809">
+    <name>СуммаДоходаПолученнаяФизическимиЛицамиСпециалисты</name>
+    <synonym>
+      <key>ru</key>
+      <value> в том числе сумма дохода, полученная высококвалифицированными специалистами [121]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ab81bc4e-9197-40e3-a098-97814d589507">
+    <name>СуммаЗарплата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма зарплата [112]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="27c2a4a1-4f49-403a-bd26-9680b101a800">
+    <name>СуммаНалога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма налога [020]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a662588d-ee33-4f02-979c-7a6868db0f72">
+    <name>СуммаНалогаБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Налоговая база [131]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8dacb58d-e098-4388-a095-e0a150cd4aa3">
+    <name>СуммаНалогаВозвращенного</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма налога, возвращенная налоговым агентом [190]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aa4f7891-0e54-47f3-b45b-1701300c0fc0">
+    <name>СуммаНалогаИзлишнеУдержанная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма налога, излишне удержанная [180]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ab5a8f9b-9d4e-4da6-8b2c-95f46780f3dc">
+    <name>СуммаНалогаИсчисленная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма налога исчисленная [140]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d1184399-cf82-4ec0-9958-ab6467ecae09">
+    <name>СуммаНалогаНеУдержанная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма налога, не удержанная налоговым агентом [170]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9c0d52f8-e84b-482f-b5d7-b9bf7f1d2baf">
+    <name>СуммаНалогаУдержанная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма налога удержанная [160]</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="32a55bbf-2da4-408a-b969-1f10ccf127d1">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6d5c0374-0655-45ba-b58e-65fed3f2e9e5">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="188f832a-0aca-40e7-bf11-3b5c704ea766">
+    <producedTypes>
+      <objectType typeId="a8cdb8ed-4ead-4615-9dec-188a02d59923" valueTypeId="63dede7e-e61a-4431-ac96-ac829d5a65fa"/>
+      <rowType typeId="7d132ad9-b238-4e61-8f98-9acab742d1dd" valueTypeId="a01a748f-6e2b-45d3-bedb-21f1b86c031d"/>
+    </producedTypes>
+    <name>ВозвратНалога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат налога</value>
+    </synonym>
+    <attributes uuid="f43fda3e-8ec4-49da-9c2c-64c3605ba67d">
+      <name>ДатаВозвратаНалога</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата возврата налога</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8d303311-6bad-402f-bce0-49fa228ef42b">
+      <name>СуммаНалога</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма налога</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="a9d2ecaf-ec3c-4e7b-b9a2-bd9ab2488a5c">
+    <name>СхемаВыгрузки503</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки, версия 5.03</value>
+    </synonym>
+  </templates>
+</mdclass:Document>

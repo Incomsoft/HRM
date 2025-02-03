@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce807892-397e-40b0-adbb-3903977def52">
+  <name>инкПостоянныеУдержания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Постоянные удержания</value>
+  </synonym>
+</mdclass:Role>

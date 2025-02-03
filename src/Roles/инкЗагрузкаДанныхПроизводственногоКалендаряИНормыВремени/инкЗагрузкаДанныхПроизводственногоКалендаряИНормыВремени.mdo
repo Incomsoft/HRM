@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="237bc71b-46e2-4369-9390-bc23dbc273f2">
+  <name>инкЗагрузкаДанныхПроизводственногоКалендаряИНормыВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка данных производственного календаря и нормы времени</value>
+  </synonym>
+</mdclass:Role>

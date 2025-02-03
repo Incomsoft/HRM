@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19c8b646-7f06-41b3-ade0-c365df0c9518">
+  <name>ПФ_MXL_Т7</name>
+  <synonym>
+    <key>ru</key>
+    <value>График отпусков (Т-7)</value>
+  </synonym>
+</mdclass:CommonTemplate>

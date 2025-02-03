@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9999d8e-2049-4fd7-abbc-983e40c604a2">
+  <name>инкФондТравматизмаДобавлениеИзменение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фонд травматизма (добавление/изменение)</value>
+  </synonym>
+</mdclass:Role>

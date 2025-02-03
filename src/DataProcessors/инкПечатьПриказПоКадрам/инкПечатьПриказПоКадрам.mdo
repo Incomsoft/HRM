@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e26aa0e-1d05-42bb-ab59-4c648a784fce">
+  <producedTypes>
+    <objectType typeId="7b2bb892-0443-451d-b86e-64d32ae7d7b1" valueTypeId="180d689a-1a9d-44c1-806d-cc453f5ee578"/>
+    <managerType typeId="a4d7095b-0b17-4e52-a1ed-40cf143b28db" valueTypeId="1a1942a4-cc1e-4834-a21b-5c73188e0818"/>
+  </producedTypes>
+  <name>инкПечатьПриказПоКадрам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать приказ по кадрам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.инкПечатьПриказПоКадрам.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="a5e2b063-91ac-4f05-b651-4e1653aecafd">
+    <name>ДокументСсылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ ссылка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.инкПриказПоКадрам</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="78d7f5de-6448-441b-a0d7-bd99d63b018b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="88f069a3-695d-4e79-a53e-05b7f6761d6f">
+    <name>ПриказПоКадрам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приказ по кадрам</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

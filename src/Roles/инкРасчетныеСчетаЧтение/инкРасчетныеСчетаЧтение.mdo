@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd0d71fe-dc72-4605-9dee-0cbad8d4b73f">
+  <name>инкРасчетныеСчетаЧтение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчетные счета (чтение)</value>
+  </synonym>
+</mdclass:Role>

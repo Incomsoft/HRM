@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f321e3e5-0020-446c-a75a-6fabaa3cab95">
+  <producedTypes>
+    <refType typeId="7b78d7e0-b917-4f79-863d-1239fa58bdee" valueTypeId="a9abc9fa-2e3f-486c-8f7c-7541e23977c4"/>
+    <listType typeId="e2f71fd5-e0e6-4fac-a41b-9d85486aa303" valueTypeId="e352caf7-3a49-46cd-b398-7703e7bbcf69"/>
+    <managerType typeId="a56c0163-ce76-4ae7-a52e-9d05631a327d" valueTypeId="e909b3a4-9d33-4af3-8e61-868a3693d528"/>
+  </producedTypes>
+  <name>инкНалоговыйАгент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Налоговый агент</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="10fcb56b-6e2e-4f1a-a818-401171fd0a6b">
+    <name>НалоговыйАгент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Налоговый агент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4ad2532d-0694-4643-82c1-c6516229ffe4">
+    <name>ПредставительНалоговогоАгента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представитель налогового агента</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

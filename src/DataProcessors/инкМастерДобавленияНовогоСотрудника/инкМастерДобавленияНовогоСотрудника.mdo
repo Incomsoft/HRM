@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f1541e4-eac0-4f13-8f54-e9b0c19f9154">
+  <producedTypes>
+    <objectType typeId="4b788548-9d4e-422e-b1dc-4d0482289b68" valueTypeId="7716627c-a508-46b4-a42f-404dd3f0497c"/>
+    <managerType typeId="276419e2-8a7f-4b1e-8140-f7d2f0ccec8b" valueTypeId="5d2e4221-930d-4a6b-b464-b694a1c8017a"/>
+  </producedTypes>
+  <name>инкМастерДобавленияНовогоСотрудника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мастер добавления нового сотрудника</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.инкМастерДобавленияНовогоСотрудника.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <tabularSections uuid="a112b41b-f085-4f34-ace4-529221b381d6">
+    <producedTypes>
+      <objectType typeId="e96d25c4-a9d8-4a74-8910-c8c17082c4fc" valueTypeId="c17f5dbf-d30f-4a7a-86d7-c1064b71bc27"/>
+      <rowType typeId="ad051588-e2e6-4b1e-ae2e-4fea5caf6b88" valueTypeId="7e2ae1c2-c32c-4636-9852-1ec446c32642"/>
+    </producedTypes>
+    <name>СформированныеДокументыИСправочники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сформированные документы и справочники</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="634a9a60-a6a0-4a6f-abb4-e391de9e0c9d">
+      <name>ОбъектСсылка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект ссылка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <types>DocumentRef</types>
+        <types>CatalogRef</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="2ad95199-3426-4e89-9d7f-a078753dcd30">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="34eb137c-e103-42db-a35e-eba8425aa251">
+    <name>инкМастерДобавленияНовогоСотрудника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мастер добавления нового сотрудника</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

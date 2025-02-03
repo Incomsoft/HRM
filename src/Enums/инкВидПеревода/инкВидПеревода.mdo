@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b1828c0-0bd2-41b2-927c-e6acd8a11cc5">
+  <producedTypes>
+    <refType typeId="c24ac069-b710-4930-989d-252992489685" valueTypeId="38f4ddcc-6f91-496e-9264-2321066c62fb"/>
+    <listType typeId="80e57006-f9d8-4b93-b41c-ad4d75b84eb3" valueTypeId="6c0774ef-d777-4d3c-b017-798183ba6410"/>
+    <managerType typeId="8a224ebb-7336-44e6-b4c6-7008a319cbbf" valueTypeId="c238de7d-9c62-4e27-8fa6-1500a5c7a41a"/>
+  </producedTypes>
+  <name>инкВидПеревода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид перевода</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6f3a2be1-01a6-4ade-a0e7-737d9b48ddf0">
+    <name>Временно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Временно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dfb8ac83-78d2-4a34-9a2c-3b7c69b8edd8">
+    <name>Постоянно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Постоянно</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

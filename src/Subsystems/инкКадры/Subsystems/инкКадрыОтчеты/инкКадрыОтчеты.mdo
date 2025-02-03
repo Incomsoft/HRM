@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="448c95d9-62a9-4b5e-a2de-9cad6bab65f2">
+  <name>инкКадрыОтчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.инкЕФС_1</content>
+  <content>Report.инкСотрудникиОрганизации</content>
+  <content>Report.инкДниРожденияСотрудников</content>
+  <content>DataProcessor.инкЛицевойСчетТ54а</content>
+  <content>DataProcessor.инкОтчетПоОстаткуОтпусков</content>
+  <content>Report.инкРеестрБольничныхЛистов</content>
+  <parentSubsystem>Subsystem.инкКадры</parentSubsystem>
+</mdclass:Subsystem>

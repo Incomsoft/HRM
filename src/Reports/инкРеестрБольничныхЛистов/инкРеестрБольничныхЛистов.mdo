@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="970ebf23-7830-41ca-ad32-5e012eb47abc">
+  <producedTypes>
+    <objectType typeId="ee20affd-4a1f-490c-85a4-226027d49f3a" valueTypeId="3954ec1c-47e4-4391-a44d-cb1e16545ce3"/>
+    <managerType typeId="7cb268d4-a472-4836-85b6-fbe353d3931b" valueTypeId="a4cfd67d-c597-4bf0-91b5-0592160246e0"/>
+  </producedTypes>
+  <name>инкРеестрБольничныхЛистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр больничных листов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.инкРеестрБольничныхЛистов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="90e06554-5a57-4ae9-b487-e9bd363a18be">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="e4214b3f-e9f4-45e2-ba8b-8ab1dda3ef35">
+    <name>инкРеестрБольничныхЛистов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реестр больничных листов</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

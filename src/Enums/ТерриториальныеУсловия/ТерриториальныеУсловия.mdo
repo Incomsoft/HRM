@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06dcffaf-d438-42d4-8600-d1b6fdf06f50">
+  <producedTypes>
+    <refType typeId="a808881f-4450-41b3-b028-af395e8f8a3c" valueTypeId="9030571f-261c-47da-9cea-112dc2046faf"/>
+    <listType typeId="141a5e15-9cd2-4206-a765-647a79f73000" valueTypeId="0896ca59-3e29-4b23-a19e-4a9df1fcc664"/>
+    <managerType typeId="3f4d7ad0-5827-4c5e-bdf5-211c4bf89034" valueTypeId="1c251724-6dcb-4110-81cb-cf72ebb6e81a"/>
+  </producedTypes>
+  <name>ТерриториальныеУсловия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Территориальные условия</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="35f163b7-6cee-4e87-a827-5d96414a6406">
+    <name>МКС</name>
+    <synonym>
+      <key>ru</key>
+      <value>МКС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="148cdb79-3e47-4f2a-a271-1f105f7042f4">
+    <name>РКС</name>
+    <synonym>
+      <key>ru</key>
+      <value>РКС</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

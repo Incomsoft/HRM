@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ed54d2a-42d0-4326-8774-83607258f2c4">
+  <producedTypes>
+    <objectType typeId="b6718b11-24b9-4fff-822d-fe9e2cb7bfbc" valueTypeId="8b1c952e-214b-44f9-a9ea-0b72b45f451f"/>
+    <managerType typeId="091b1565-975a-4b99-9549-9b3b5f148921" valueTypeId="04045dc8-bace-47ab-b6f0-b3061c75081e"/>
+  </producedTypes>
+  <name>инкСервисноеОбслуживаниеПрограммыИнкомсофт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервисное обслуживание программы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.инкСервисноеОбслуживаниеПрограммыИнкомсофт.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="35e1b621-b476-4df0-b50e-bc9634e8371c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="02ef3c2e-6bf0-4f38-85d4-03245a5bf673">
+    <name>инкРезервноеКопирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Резервное копирование</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="4206f478-619d-4f48-9c5e-b40499ebcd03">
+    <name>инкВосстановлениеДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Восстановление данных</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="7fd63b1d-c266-42f7-854d-5b9ef57eb329">
+    <name>инкОбновлениеПрограммы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление программы (Инкомсофт)</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

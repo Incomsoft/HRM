@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43ec8bba-e07a-4b33-a122-0a2ddc6b3de1">
+  <name>инкПриказНаОтпускДобавлениеИзменение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приказ на отпуск (добавление/изменение)</value>
+  </synonym>
+</mdclass:Role>

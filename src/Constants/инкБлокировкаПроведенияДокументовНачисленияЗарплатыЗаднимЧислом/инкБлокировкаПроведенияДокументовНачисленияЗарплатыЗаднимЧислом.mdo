@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbfd1fd4-b0d3-4e32-9706-60a294675419">
+  <producedTypes>
+    <managerType typeId="ab6bda5e-566c-4a00-856a-1fad3d670f24" valueTypeId="7af36f52-09ad-475a-a85c-8f0fe6348e12"/>
+    <valueManagerType typeId="2a46b778-b45d-44e0-a654-9ee54bfa86bb" valueTypeId="bed1ccfd-faed-42ae-94b0-f0d0b93ad84f"/>
+    <valueKeyType typeId="0adc7abb-3f45-40e6-a59c-e4fbb83a0306" valueTypeId="27e89897-f031-4cf2-8afa-c9c3c45534ea"/>
+  </producedTypes>
+  <name>инкБлокировкаПроведенияДокументовНачисленияЗарплатыЗаднимЧислом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Блокировка проведения документов начисления зарплаты задним числом (Инкомсофт)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.инкБлокировкаПроведенияДокументовНачисленияЗарплатыЗаднимЧислом</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

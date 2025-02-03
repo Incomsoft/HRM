@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d3ec99b-5383-463f-9b2a-09e01a030359">
+  <producedTypes>
+    <objectType typeId="54a911e8-351d-4de7-a98f-bf052c774c12" valueTypeId="faea7a6c-85ef-47ea-a031-04798dad67a6"/>
+    <managerType typeId="fcb13a7f-904a-4b3f-8f94-e03723078f21" valueTypeId="07612e8a-8a42-4f42-8cef-6bfc1ed6ca08"/>
+  </producedTypes>
+  <name>инкПечатьПриказВКомандировку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать приказ в командировку</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.инкПечатьПриказВКомандировку.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="7511f5fb-2997-42f5-879b-7a5c491d2312">
+    <name>ДокументСсылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ ссылка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.инкПриказВКомандировку</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="c0195c06-35f8-46c9-9283-c7c378d86951">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="984c0aae-58b4-4bbc-8366-d6b767de6823">
+    <name>ПФ_MXL_Т9</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приказ о направлении в командировку (Т-9)</value>
+    </synonym>
+  </templates>
+  <templates uuid="34c4a4b6-f2ab-4baa-8d22-39cdcfb4ee40">
+    <name>ПФ_MXL_Т10</name>
+    <synonym>
+      <key>ru</key>
+      <value>Командировочное удостоверение (Т-10)</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

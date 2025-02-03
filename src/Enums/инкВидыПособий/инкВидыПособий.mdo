@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c8f3d96-92ae-4752-987e-7a8c1b76bf7a">
+  <producedTypes>
+    <refType typeId="018bd938-400e-4c4d-a6f9-7d1a028a2227" valueTypeId="2f636369-e7fe-47f7-94e8-b186736e6351"/>
+    <listType typeId="319c49ab-70ef-420d-9881-8b6028eb7516" valueTypeId="582dd006-7d0b-47de-9d4f-34990cb31fd0"/>
+    <managerType typeId="615283c7-9327-49b1-8f2d-1f0ce495d4c3" valueTypeId="cfe24937-2499-42cb-8287-915e1dc038a3"/>
+  </producedTypes>
+  <name>инкВидыПособий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды пособий</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="30c1277d-be0f-4852-a2d6-c42e50bbced2">
+    <name>Заболевание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заболевание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="015e2d3e-ec66-4b3d-9256-836260190411">
+    <name>УходЗаБольным</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уход за больным</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="41b0b7b6-206d-4c5b-81f7-f72419f044f8">
+    <name>ПособиеПоБеременностиИРодам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пособие по беременности и родам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9f59e080-804d-4055-8e59-7797992607e6">
+    <name>Травма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Травма</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ac34adb4-a48a-4749-96c2-c547ef0e195b">
+    <name>Карантин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карантин</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f1f7e31b-df62-45e1-8d83-8f8f0eafeade">
+    <name>Профзаболевание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профзаболевание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="14e263b3-3fbc-4ac1-b7dc-392fbbed2adc">
+    <name>НесчастныйСлучайНаПроизводстве</name>
+    <synonym>
+      <key>ru</key>
+      <value>Несчастный случай на производстве</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

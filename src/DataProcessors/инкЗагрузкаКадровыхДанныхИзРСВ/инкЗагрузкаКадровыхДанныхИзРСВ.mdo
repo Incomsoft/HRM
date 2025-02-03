@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0bf4f35-f04f-4be8-b617-51435f5627d7">
+  <producedTypes>
+    <objectType typeId="52171f7f-be19-46da-98a2-4ba44bb36c4a" valueTypeId="34eb76b1-c544-42aa-959e-b2f6287dda70"/>
+    <managerType typeId="ddef781d-83a3-4984-8f80-9feebf50d26f" valueTypeId="341eb0e0-7893-4da7-8e7f-87a6aa7ecd52"/>
+  </producedTypes>
+  <name>инкЗагрузкаКадровыхДанныхИзРСВ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка кадровых данных из РСВ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.инкЗагрузкаКадровыхДанныхИзРСВ.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="99f4f8cd-110a-4af1-833f-bbcbc6722221">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

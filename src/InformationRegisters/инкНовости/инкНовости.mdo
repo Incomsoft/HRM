@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d018cf3e-72e0-4116-a11a-192424ed48c1">
+  <producedTypes>
+    <selectionType typeId="5829f44b-c7a1-41ab-9e36-de62123ecbcf" valueTypeId="f0509315-b7f7-41ed-b994-0537a4f232bb"/>
+    <listType typeId="455f457d-661e-411d-99ff-195d70bab933" valueTypeId="9f9d96a0-08ee-4a28-953c-967485cbead3"/>
+    <managerType typeId="54beaeca-5fb1-4813-8ae8-cd6b14674ec7" valueTypeId="08247010-1299-4f56-ac7f-31d1dcdb65c6"/>
+    <recordSetType typeId="9c858a68-1637-4fd9-9bcf-9c10b29e5eda" valueTypeId="6e3e2e07-2c9d-4037-bd48-7b98ccb89aa1"/>
+    <recordKeyType typeId="72645287-6621-4904-8215-3ea4e12b6f16" valueTypeId="2074323a-2a37-4dc4-b150-8ff5f81653d5"/>
+    <recordType typeId="8b174d70-0065-4d5e-aaf5-49605cef40e3" valueTypeId="61456618-099e-493c-8619-964ccf0e6b3f"/>
+    <recordManagerType typeId="8cd44e38-bb8c-4c7f-a0af-f3b019ee0e2c" valueTypeId="280a15d6-25ac-48ac-9d98-b9a10a09c797"/>
+  </producedTypes>
+  <name>инкНовости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Новости программы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.инкНовости.Form.ФормаЗаписи</defaultRecordForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b1f38979-0aab-4861-8c02-d0b97f0f5c29">
+    <name>Прочитано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочитано</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7f3861a7-45d6-46f0-a10c-10a492101a6c">
+    <name>НомерНовости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер новости</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d5efcde5-4f11-4587-8be8-32a9dfe73e3f">
+    <name>ВебСсылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Веб ссылка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="5a8521f3-61f7-4413-8b32-61f836758dfc">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f64f12c1-bcf2-4744-a305-008b234eb21b">
+    <name>ФормаЧтенияНовостей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новости ООО &quot;Инкомсофт&quot;</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

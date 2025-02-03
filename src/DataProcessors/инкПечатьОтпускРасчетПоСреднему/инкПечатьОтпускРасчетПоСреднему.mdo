@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c2d68cd-9e17-458e-ac27-4ab2667fbfb8">
+  <producedTypes>
+    <objectType typeId="cbc63517-8289-4248-ab2c-297255df013c" valueTypeId="a1bc9c11-6a11-4ffa-89d0-30c4224782a1"/>
+    <managerType typeId="122cf5ca-aeae-4f7c-a7b7-a4c5555bc556" valueTypeId="8b5bbe3b-cd39-4de7-9b52-3b6317847d36"/>
+  </producedTypes>
+  <name>инкПечатьОтпускРасчетПоСреднему</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать отпуск/расчет по-среднему</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.инкПечатьОтпускРасчетПоСреднему.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="b8999957-63dc-47d8-8443-1522f7c9368c">
+    <name>ОтпускРасчетПоСреднему</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отпуск расчет по среднему</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.инкОтпускРасчетПоСреднему</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="6af85187-4f73-4d00-ab95-f6b74c9014c5">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="8760fe8d-54ae-4477-a64c-70fe31ecabdc">
+    <name>инкОтпускРасчетПоСреднемуМакет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отпуск расчет по среднему (макет)</value>
+    </synonym>
+  </templates>
+  <templates uuid="365d9db3-cda5-4232-bf17-2909078675cf">
+    <name>ПФ_MXL_Т60</name>
+    <synonym>
+      <key>ru</key>
+      <value>Записка - расчет о предоставлении отпуска работнику</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

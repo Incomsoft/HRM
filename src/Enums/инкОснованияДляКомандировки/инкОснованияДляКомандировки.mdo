@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6124860-7bc8-4e04-9c02-303bd7a8c9f3">
+  <producedTypes>
+    <refType typeId="37fd53c1-1f4c-481c-9cbd-3b103df37e43" valueTypeId="4bcd6782-bacc-4db4-8117-049a751e7436"/>
+    <listType typeId="808cf61b-17a9-4957-93ba-fa82cc74d180" valueTypeId="1310b1b5-590f-41c5-8491-8dfedee7d8e8"/>
+    <managerType typeId="6b7c245e-4afe-4ae1-b235-e2fe46307fc8" valueTypeId="e54691b1-79a4-4498-89e3-bb0f93edb506"/>
+  </producedTypes>
+  <name>инкОснованияДляКомандировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основания для командировки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="88c7174a-b266-4876-8f71-ce5af23d2a20">
+    <name>ГрафикОтпусков</name>
+    <synonym>
+      <key>ru</key>
+      <value>График отпусков</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b4f8efd7-7f4f-429e-a726-7e0652bdcce0">
+    <name>ЛичноеЗаявление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Личное заявление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9bcf9048-94e1-4860-879b-889309617884">
+    <name>ПроизводственнаяНеобходимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производственная необходимость</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d7c0eb8c-7bad-43b5-94b2-b7290dc1f268">
+    <name>СвидетельствоОРожденииЛичноеЗаявление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свидетельство о рождении, личное заявление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6649bad3-034c-43c1-a441-ff47b1765163">
+    <name>ТКст77п1</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТК, статья 77 п. 1 (по соглашению сторон)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1c0bfea0-e87b-405a-a71a-bc8b569a0a92">
+    <name>ТКст77п11</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТК, статья 77 п. 11  (нарушение правил заключения трудового договора)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5770f485-83dd-47ee-93dc-922fe2a8401c">
+    <name>ТКст77п2</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТК, статья 77 п. 2 (прекращение срочного трудового договора)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="38de1625-c96e-4048-986b-7bc8f71a0660">
+    <name>ТКст77п3</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТК, статья 77 п. 3 (по собственному желанию)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f9b0f3dd-64f9-4b4e-b462-41d96e7f1804">
+    <name>ТКст77п4</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТК, статья 77 п. 4 (по инициативе работодателя), пункт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

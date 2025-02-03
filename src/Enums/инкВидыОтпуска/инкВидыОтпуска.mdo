@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c0dcd1e-223c-471d-b7d3-e3fd2fa6d344">
+  <producedTypes>
+    <refType typeId="3056e487-2862-4e9f-b2ef-6da2460e8baf" valueTypeId="be82ede8-8011-4d4b-9eda-816bd61aff05"/>
+    <listType typeId="309be1df-03e9-44d6-8b15-135675320b4d" valueTypeId="84bb74f0-ace5-4cce-b877-478b3fd1f356"/>
+    <managerType typeId="6fd2f987-a6cd-44eb-bb8e-cf49dc5769ef" valueTypeId="570d7afc-ef1b-4927-9db6-70e9e03d8d58"/>
+  </producedTypes>
+  <name>инкВидыОтпуска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды отпуска</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9ab9ab5b-0445-4442-a0dc-82f83bc66e70">
+    <name>БезСохраненияЗарплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без сохранения зарплаты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ea71bcab-a161-40dd-8440-6eb432809e9f">
+    <name>ЕжегодныйДополнительный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ежегодный дополнительный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ad44fd92-5801-4d4a-b030-cd6843f77cef">
+    <name>ЕжегодныйОсновной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ежегодный основной</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="13ca64c1-671b-451e-bc63-360b4a90e68f">
+    <name>ПоБеременностиИРодам</name>
+    <synonym>
+      <key>ru</key>
+      <value>По беременности и родам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8dc3cdde-b853-4bb4-91cb-a6c24f04490c">
+    <name>ПоСемейнымОбстоятельствам</name>
+    <synonym>
+      <key>ru</key>
+      <value>По семейным обстоятельствам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fe01fe50-2d7f-4981-aaf1-22cfa21c27b1">
+    <name>ПоУходуЗаРебенкомДо15Лет</name>
+    <synonym>
+      <key>ru</key>
+      <value>По уходу за ребенком до 1.5 лет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="00e53353-14fb-4912-9f5a-caaa69ae7919">
+    <name>ПоУходуЗаРебенкомДо3Лет</name>
+    <synonym>
+      <key>ru</key>
+      <value>По уходу за ребенком до 3 лет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7091465e-12b5-49a7-967b-92a110e424a3">
+    <name>ПриУсыновлении</name>
+    <synonym>
+      <key>ru</key>
+      <value>При усыновлении</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="664b53dc-d67d-400a-9ce8-061e93fe0c22">
+    <name>Учебный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учебный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="393112ea-16cd-4420-a559-a62e89482f16">
+  <producedTypes>
+    <objectType typeId="1cd4dad2-b6f6-4f7a-8593-1b7491b3d563" valueTypeId="efc3cb40-a194-4554-804b-aa413f4e39ec"/>
+    <managerType typeId="d4111d5a-685d-4533-a364-ad7655c1c979" valueTypeId="8101cce6-2d0d-4b43-9c36-b9843e43e0c7"/>
+  </producedTypes>
+  <name>инкРеестрУведомлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр уведомлений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.инкРеестрУведомлений.Form.ФормаОтчета</defaultForm>
+  <forms uuid="9d084e1b-fb4f-49b6-a47d-6201ce0a9359">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="5ff762a0-295c-488e-875d-19a66666b9f3">
+    <name>Печать_РеестрУведомлений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реестр уведомлений</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

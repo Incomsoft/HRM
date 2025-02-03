@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1623c791-1e1e-47cf-8673-964f9d4daeb9">
+  <name>инкЛицевойСчетТ54а</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лицевой счет Т-54а (отчет)</value>
+  </synonym>
+</mdclass:Role>

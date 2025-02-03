@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8bf77fa-8fa6-401a-99cb-661a1c2e268c">
+  <producedTypes>
+    <objectType typeId="e182b914-12ad-49fe-99f5-66c9b3bc61fa" valueTypeId="ee410c6f-6dfb-4a6e-8a5d-75034316c0b1"/>
+    <managerType typeId="83f1283a-e484-4d18-a8a0-7e4e8b5fdd54" valueTypeId="0c5f327c-dadb-4d9e-ada2-bbb34fd4f946"/>
+  </producedTypes>
+  <name>инкАУСНИнформацияДляФНС</name>
+  <synonym>
+    <key>ru</key>
+    <value>АУСН (информация для ФНС)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.инкАУСНИнформацияДляФНС.Form.ФормаОтчета</defaultForm>
+  <forms uuid="d02a6fa8-9bb1-42bc-b19a-46188f43848e">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="3642bd1e-43d7-4a13-9839-b7121c6a0197">
+    <name>МакетАУСН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет АУСН</value>
+    </synonym>
+  </templates>
+  <commands uuid="b08757f2-dbc5-44ee-8f4e-1582c0fc10b6">
+    <name>инкАУСНИнформацияДляФНС</name>
+    <synonym>
+      <key>ru</key>
+      <value>АУСН (информация для ФНС)</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

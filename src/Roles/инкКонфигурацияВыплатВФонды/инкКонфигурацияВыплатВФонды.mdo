@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a614d5d4-2137-43e9-9c19-ca7cf4396f58">
+  <name>инкКонфигурацияВыплатВФонды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конфигурация выплат в фонды</value>
+  </synonym>
+</mdclass:Role>

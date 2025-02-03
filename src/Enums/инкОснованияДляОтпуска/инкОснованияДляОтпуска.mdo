@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6194242b-8c6c-4968-a013-2129d5578a33">
+  <producedTypes>
+    <refType typeId="576ff3ab-e3b5-438a-ba62-7fad9aaaa303" valueTypeId="a6bcb703-f424-4c85-ab71-89c88e9b5a83"/>
+    <listType typeId="62aeab1a-858a-487f-9567-be288a0edd1b" valueTypeId="8c8d9bcd-9dec-44f6-9ec2-1c7871540f2d"/>
+    <managerType typeId="25224000-1986-40f6-abbc-8eedb81feb56" valueTypeId="696b800d-ecbc-4d7f-b825-9206d51f73ec"/>
+  </producedTypes>
+  <name>инкОснованияДляОтпуска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основания для отпуска</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ac18a3ff-2523-421b-af4b-4d0334b5befa">
+    <name>ГрафикОтпусков</name>
+    <synonym>
+      <key>ru</key>
+      <value>График отпусков</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="688c1e72-fc9d-4d79-aa0e-fdb10b2f42b1">
+    <name>ЛичноеЗаявление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Личное заявление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1d0ed615-8cb9-4794-9ca1-9aab299edafb">
+    <name>ПроизводственнаяНеобходимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производственная необходимость</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="04caded7-910a-435d-8e29-d47c45e4a4dc">
+    <name>СвидетельствоОРожденииЛичноеЗаявление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свидетельство о рождении, личное заявление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="43df4016-742d-4cde-aae2-de9ff664f6d1">
+    <name>ТКст77п1</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТК, статья 77 п. 1 (по соглашению сторон)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b1fea9dd-e74a-4d15-bf14-da8b69e6c30a">
+    <name>ТКст77п11</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТК, статья 77 п. 11  (нарушение правил заключения трудового договора)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a229c8d6-71fd-4800-8558-07cb3296b6db">
+    <name>ТКст77п2</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТК, статья 77 п. 2 (прекращение срочного трудового договора)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="47c7a77f-c97e-4a1f-adaa-64ae60b105da">
+    <name>ТКст77п3</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТК, статья 77 п. 3 (по собственному желанию)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f6e389cb-e500-4760-97c5-fa5da93b6521">
+    <name>ТКст77п4</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТК, статья 77 п. 4 (по инициативе работодателя), пункт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

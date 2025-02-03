@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5477a055-d7a2-4542-81e6-f0db86759a87">
+  <name>инкКадровыеДокументыПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровые документы при записи</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.инкКадровыйПеревод</types>
+    <types>DocumentObject.инкУвольнение</types>
+    <types>DocumentObject.инкПриказНаОтпуск</types>
+    <types>DocumentObject.инкПриказПоКадрам</types>
+    <types>DocumentObject.инкПриказВКомандировку</types>
+    <types>DocumentObject.инкПриемНаРаботу</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.инкОбработчикиСобытийСервер.КадровыеДокументы_ПриЗаписи</handler>
+</mdclass:EventSubscription>

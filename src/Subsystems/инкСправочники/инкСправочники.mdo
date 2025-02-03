@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6dc3ab6f-c106-43e5-a6d9-c6983d7b3094">
+  <name>инкСправочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.инкОрганизации</content>
+  <content>Catalog.инкПодразделения</content>
+  <content>Catalog.ПроизводственныеКалендари</content>
+  <content>Catalog.инкСотрудники</content>
+  <content>Catalog.Валюты</content>
+  <content>CommonCommand.инкНормаВремени</content>
+  <content>Catalog.инкВычетыНДФЛ</content>
+  <content>Catalog.инкДоходНДФЛ</content>
+  <content>Catalog.инкДолжности</content>
+  <content>Catalog.инкЗарплатныеПроекты</content>
+  <content>Catalog.инкИсточникиФинансирования</content>
+  <content>Catalog.инкКодыБюджетнойКлассификации</content>
+  <content>Catalog.инкРасчетныеСчета</content>
+  <content>Catalog.инкВидыДокументовФизическихЛиц</content>
+  <content>DataProcessor.инкКонфигурацияВыплатВФонды</content>
+  <content>InformationRegister.инкСтандартныеВычетыНастройки</content>
+  <content>Catalog.инкВебСсылкиНаСправкуКПрограмме</content>
+  <content>DataProcessor.инкМастерДобавленияНовогоСотрудника</content>
+  <content>Catalog.инкОснованияДляКадровыхПриказов</content>
+</mdclass:Subsystem>

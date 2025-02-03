@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d90b7e4-f283-4060-a2b2-ff28d259b6d6">
+  <producedTypes>
+    <selectionType typeId="2d0c52f6-21ae-4624-8530-4333499b7f7a" valueTypeId="8a4f18af-e539-4855-8984-3515be8704b0"/>
+    <listType typeId="5ecbe4d3-f466-4c64-a26d-31cb9c427dca" valueTypeId="41b09ec8-d584-430f-9559-347661d684be"/>
+    <managerType typeId="69dda7dc-a872-4c95-9465-4bd11985533a" valueTypeId="36fa1a21-70fe-4013-98a0-0c7928c50a23"/>
+    <recordSetType typeId="cfc53a29-7db0-40f6-8c3c-fe68850f9f28" valueTypeId="2e76ef3d-c61f-4ab3-a219-008cca450d76"/>
+    <recordKeyType typeId="d2a3ee4e-504d-4d04-8039-a37d77354b97" valueTypeId="b501ac9b-17a5-4374-866d-504b305913e5"/>
+    <recordType typeId="dc63fc60-48c4-437b-acc3-b951adcd07a7" valueTypeId="bfe95976-5e5b-4695-9c13-a1ab00787e82"/>
+    <recordManagerType typeId="f3471dcd-9d3c-4918-a43e-eab78975a62c" valueTypeId="b509613d-d0a0-4deb-95fa-7d493d5ac68d"/>
+  </producedTypes>
+  <name>инкРеестрКадровыхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр кадровых документов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="48ddde0b-6ec8-427d-ad72-10a5aaa08112">
+    <name>ДатаПриказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата приказа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="47263532-e0bd-4518-a15c-f69be7e0e35d">
+    <name>КадровыйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кадровый документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2471dd4f-6972-4081-b264-f518c75694fc">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.инкСотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fb868f8-9861-4535-86a7-7d3e507341eb">
+  <producedTypes>
+    <objectType typeId="2de903ee-d001-42df-84e9-371bd15b5583" valueTypeId="6e173055-c79b-415d-b541-aa57671c6c65"/>
+    <managerType typeId="b88ca93e-9a96-4c37-aa20-e9b6f2ba95f4" valueTypeId="10a779a1-699a-4c61-b5ce-69be4294d032"/>
+  </producedTypes>
+  <name>инкЗагрузкаКадровыхДанныхИзБПВЗИК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка кадровых данных из БП 3.0 в ЗИК 11</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.инкЗагрузкаКадровыхДанныхИзБПВЗИК.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="9f96421f-8cfb-45f7-bbf8-b0a6ffdec008">
+    <name>ИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2121eff9-1b97-420b-a951-435ef00d2b16">
+    <name>АдресФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="d8b048f1-95f2-4bc5-8ed2-eb3d94c412ce">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

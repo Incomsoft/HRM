@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a63852de-6aea-4fad-a2a6-ff8af92de62c">
+  <name>инкБлокировкаПроведенияДокументовЧтение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Блокировка проведения документов начисления зарплаты задним числом (чтение)</value>
+  </synonym>
+</mdclass:Role>

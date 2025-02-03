@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd5d1650-56e9-4f4a-b753-4ab764040add">
+  <name>инкПечатьРКО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать РКО</value>
+  </synonym>
+</mdclass:Role>

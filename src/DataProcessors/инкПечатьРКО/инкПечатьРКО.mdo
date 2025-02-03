@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20294fde-30f9-48a0-9c00-46e77714c577">
+  <producedTypes>
+    <objectType typeId="3c32fd7e-69ec-4cfd-91f6-bcb08f436979" valueTypeId="a4d04766-451c-4cd5-a2f0-eb6f923f6226"/>
+    <managerType typeId="34a518fa-39ed-4191-b93d-acc44c328ef0" valueTypeId="c8497889-147a-4e19-8b1e-93f0ac43401f"/>
+  </producedTypes>
+  <name>инкПечатьРКО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать РКО</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.инкПечатьРКО.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="dea66269-510d-4eff-ac18-943cb396e07a">
+    <name>ВедомостьНаВыплатуЗарплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ведомость на выплату зарплаты</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.инкВедомостьНаВыплатуЗарплаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="40858376-bf1a-40ef-b9d8-c5c44cdfe20b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

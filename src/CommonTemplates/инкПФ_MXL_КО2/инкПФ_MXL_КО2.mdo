@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0eb049b-9e1d-4b03-bead-8cdcbeb2ebe3">
+  <name>инкПФ_MXL_КО2</name>
+  <synonym>
+    <key>ru</key>
+    <value>КО-2</value>
+  </synonym>
+  <comment>Расходный кассовый ордер (унифицированная форма № КО-2)</comment>
+</mdclass:CommonTemplate>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb5e1f05-a506-49fa-9e07-6e9285e4e2ee">
+  <name>инкВводВходящегоСальдоДобавлениеИзменение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод входящего сальдо (добавление/изменение)</value>
+  </synonym>
+</mdclass:Role>

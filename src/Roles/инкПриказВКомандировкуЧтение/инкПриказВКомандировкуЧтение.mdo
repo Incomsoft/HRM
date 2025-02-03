@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6a2d81c-c540-4d23-a739-43dda1929294">
+  <name>инкПриказВКомандировкуЧтение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приказ в командировку (чтение)</value>
+  </synonym>
+</mdclass:Role>
