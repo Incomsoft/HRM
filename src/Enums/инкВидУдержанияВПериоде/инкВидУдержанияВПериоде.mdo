@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2eadb76b-e8dd-4d87-ba6b-c496f1011fb6">
+  <producedTypes>
+    <refType typeId="1c2209db-84ec-49bf-a47f-7d5fecd91ba8" valueTypeId="98a3882d-9731-4e1b-bbd4-bb1aa4f521bd"/>
+    <listType typeId="02119917-fb4b-4f42-b09f-76a19eedad14" valueTypeId="ee537443-cab6-4e58-bec8-b40f915a96de"/>
+    <managerType typeId="08525ed9-4961-4034-aa7c-6076d4bc734b" valueTypeId="6d20577a-91d4-4b05-96f6-77c28fd506b3"/>
+  </producedTypes>
+  <name>инкВидУдержанияВПериоде</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид удержания в периоде</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d79b10b1-1f72-4dd9-aaa6-a06d08816164">
+    <name>ПерваяПоловинаМесяца</name>
+    <synonym>
+      <key>ru</key>
+      <value>с 01 по 22 число месяца</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="528dde4f-9d09-4c38-80b5-b4ab6ef9ad2d">
+    <name>ВтораяПоловинаМесяца</name>
+    <synonym>
+      <key>ru</key>
+      <value>с 23 числа по конец месяца</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

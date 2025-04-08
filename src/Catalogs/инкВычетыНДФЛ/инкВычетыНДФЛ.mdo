@@ -809,6 +809,7 @@
     </items>
   </predefined>
   <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.инкВычетыНДФЛ.Form.ФормаСписка</defaultListForm>
   <defaultChoiceForm>Catalog.инкВычетыНДФЛ.Form.ФормаВыбора</defaultChoiceForm>
   <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
   <attributes uuid="4726ce3b-4f94-4887-a224-5d1fc8e83fcd">
@@ -907,6 +908,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6059f546-66c2-4c30-abe4-376b5a16ae04">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

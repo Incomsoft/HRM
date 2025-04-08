@@ -154,7 +154,7 @@
 	
 	// Проверка доступности сервиса.
 	//URLОперацииPing = "http://localhost/IncomsoftCRM/hs/PingOK"; 
-	URLОперацииPing = "http://srv1c.ddns.net/inccrmapi/hs/PingOK";
+	URLОперацииPing = "https://xn--h1aegcgbujr.xn--p1ai/inccrmapi/hs/PingOK";
 	инкОбщийКлиентСервер.СообщитьПользователю("Подключение к ресурсу: "+URLОперацииPing);	
 	
 	РезультатПроверки = ИнтернетПоддержкаПользователей.ПроверитьURLДоступен(URLОперацииPing, НастройкиПроксиСервера);
@@ -179,7 +179,7 @@
 	
 	// Вызов операции сервиса.
 	//URLОперации = "http://localhost/IncomsoftCRM/hs/update/files";
-	URLОперации = "http://srv1c.ddns.net/inccrmapi/hs/update/files"; 
+	URLОперации = "https://xn--h1aegcgbujr.xn--p1ai/inccrmapi/hs/update/files"; 
 	инкОбщийКлиентСервер.СообщитьПользователю("Подключение к ресурсу: "+URLОперации);	
 
 	// Логирование запроса.

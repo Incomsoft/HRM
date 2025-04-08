@@ -19,6 +19,44 @@
   <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
   <mainFilterOnPeriod>true</mainFilterOnPeriod>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5e990b87-3412-4e7b-8d01-1cd7ba94dc2b">
+    <name>АвансНДФЛСНСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аванс НДФЛ СН сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1e3d187f-d3ed-4d99-a6a3-dae76c2537fa">
+    <name>АвансНДФЛСОсновногоДоходаСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аванс НДФЛ с основного дохода сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
   <resources uuid="7eb98983-e4de-45ab-a13a-aaa108264228">
     <name>АвансНДФЛСумма</name>
     <synonym>
@@ -43,6 +81,44 @@
     <synonym>
       <key>ru</key>
       <value>Взносы сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="12a9571c-1454-46bd-81dd-8429e96e7784">
+    <name>НДФЛСНСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>НДФЛ с северных надбавок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="68422821-115a-4df8-a0c2-568e70126ce0">
+    <name>НДФЛСОсновногоДоходаСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>НДФЛ с основного дохода сумма</value>
     </synonym>
     <type>
       <types>Number</types>
@@ -84,6 +160,22 @@
     </synonym>
     <type>
       <types>CatalogRef.инкОрганизации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b5738de0-ef45-49ec-920d-415815ed31e4">
+    <name>ВидУдержанияВПериоде</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид удержания в периоде</value>
+    </synonym>
+    <type>
+      <types>EnumRef.инкВидУдержанияВПериоде</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

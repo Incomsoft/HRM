@@ -20,7 +20,7 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>ООО &quot;Инкомсофт&quot;</vendor>
-  <version>11.0.2.71</version>
+  <version>11.0.2.73</version>
   <includeHelpInContents>true</includeHelpInContents>
   <help>
     <pages>
@@ -49,7 +49,7 @@
   <splash/>
   <copyright>
     <key>ru</key>
-    <value>Copyright (С) ООО &quot;Инкомсофт&quot;, 2002 - 2024. Все права защищены. Руководитель/аналитик: Пивень Раиса Ивановна (incomsoft2000@yandex.ru). Разработчик: Чесноков Михаил Сереевич (mikas-2008@yandex.ru).</value>
+    <value>Copyright (С) ООО &quot;Инкомсофт&quot;, 2002 - 2025. Все права защищены. Руководитель/аналитик: Пивень Раиса Ивановна (incomsoft2000@yandex.ru). Разработчик: Чесноков Михаил Сереевич (mikas-2008@yandex.ru).</value>
   </copyright>
   <vendorInformationAddress>
     <key>ru</key>
@@ -2217,6 +2217,7 @@
   <enums>Enum.инкВидРабочейНедели</enums>
   <enums>Enum.инкВидРасчетаДниЧасы</enums>
   <enums>Enum.инкВидРасчетаОтпуска</enums>
+  <enums>Enum.инкВидУдержанияВПериоде</enums>
   <enums>Enum.инкВидУчетаДнейВремени</enums>
   <enums>Enum.инкВидыКадровыхСобытий</enums>
   <enums>Enum.инкВидыОтпуска</enums>

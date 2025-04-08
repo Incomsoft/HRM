@@ -4152,6 +4152,110 @@
 		<index>250</index>
 		<row>
 			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>251</index>
+		<row>
+			<formatIndex>6</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Новое в версии 11.0.2.72</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>252</index>
+		<row>
+			<formatIndex>15</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>23</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>- Добавление кода дохода НДФЛ 2006.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>253</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>254</index>
+		<row>
+			<formatIndex>6</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Новое в версии 11.0.2.73</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>255</index>
+		<row>
+			<formatIndex>15</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>23</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>- Добавление данных в производсвенный календарь и нормы времени за 2025 год.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>256</index>
+		<row>
+			<c>
 				<i>1</i>
 				<c>
 					<f>0</f>
@@ -4162,9 +4266,9 @@
 	</rowsItem>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>3</defaultFormatIndex>
-	<height>251</height>
+	<height>257</height>
 	<vgLevels>1</vgLevels>
-	<vgRows>251</vgRows>
+	<vgRows>257</vgRows>
 	<vg>
 		<b>2</b>
 		<e>57</e>
@@ -4955,6 +5059,26 @@
 			<type>Rows</type>
 			<beginRow>249</beginRow>
 			<endRow>249</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Версия11_0_2_72</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>252</beginRow>
+			<endRow>252</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Версия11_0_2_73</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>255</beginRow>
+			<endRow>255</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -5785,6 +5909,26 @@
 			<type>Rows</type>
 			<beginRow>248</beginRow>
 			<endRow>248</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Шапка11_0_2_72</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>251</beginRow>
+			<endRow>251</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Шапка11_0_2_73</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>254</beginRow>
+			<endRow>254</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>

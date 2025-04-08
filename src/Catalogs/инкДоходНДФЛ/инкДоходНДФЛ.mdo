@@ -308,6 +308,13 @@
         <value>2003</value>
       </code>
     </items>
+    <items id="c4dc7d38-ab19-4000-b6e7-55663b30629b">
+      <name>Код2006</name>
+      <description>Оплата труда, получаемая лицами, работающими в районах Крайнего Севера с неблагоприятными (особыми) климатическими или экологическими условиями</description>
+      <code xsi:type="core:StringValue">
+        <value>2006</value>
+      </code>
+    </items>
     <items id="386a0afa-47ce-4518-931c-3b414daf9018">
       <name>Код2010</name>
       <description>Выплаты по договорам гражданско-правового характера (за исключением авторских вознаграждений)</description>

@@ -56,4 +56,11 @@
       <value>ЕНВД (отменен в 2022 году)</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="a035b0e7-2ef5-4486-9080-eb35afad84d4">
+    <name>АУСН</name>
+    <synonym>
+      <key>ru</key>
+      <value>АУСН</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

@@ -7,7 +7,7 @@
   <name>инкРасчетВзносов</name>
   <synonym>
     <key>ru</key>
-    <value>Расчет взносов</value>
+    <value>Взносы в СФР</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.инкРасчетВзносов.Form.ФормаОтладки</defaultForm>

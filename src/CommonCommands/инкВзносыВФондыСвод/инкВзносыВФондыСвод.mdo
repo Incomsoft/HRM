@@ -3,7 +3,7 @@
   <name>инкВзносыВФондыСвод</name>
   <synonym>
     <key>ru</key>
-    <value>Свод по взносам в фонды</value>
+    <value>Взносы в СФР (свод)</value>
   </synonym>
   <group>NavigationPanelOrdinary</group>
   <commandParameterType/>
